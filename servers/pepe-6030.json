@@ -1,0 +1,59 @@
+{
+  "id": "pepe-6030",
+  "serverName": "Pepe",
+  "serverAddress": "",
+  "serverIcon": "servers/pepe-6030.png",
+  "serverIconSha1": "8486c3fe66e604943e3f328f4c231a89023d5dc3",
+  "minecraftVersion": "1.20.1",
+  "loader": {
+    "type": "forge",
+    "version": "47.4.5"
+  },
+  "mods": [
+    {
+      "fileName": "jei-1.20.1-forge-15.56.0.205.jar",
+      "title": "Just Enough Items (JEI)",
+      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/9jqubC9n/jei-1.20.1-forge-15.56.0.205.jar",
+      "sha1": "7f64b7f8fde7f001ef054dabe3618a8780ba2650",
+      "size": 1778129,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "u6dRKJwZ"
+    },
+    {
+      "fileName": "Cobblemon-forge-1.5.2+1.20.1.jar",
+      "title": "Cobblemon",
+      "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/vm5zUZAg/Cobblemon-forge-1.5.2%2B1.20.1.jar",
+      "sha1": "02601f79f0c442b75463538da7a3c7f260fda42e",
+      "size": 104105045,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "MdwFAVRL"
+    },
+    {
+      "fileName": "kotlinforforge-4.12.0-all.jar",
+      "title": "Kotlin for Forge",
+      "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/Zsh14XeQ/kotlinforforge-4.12.0-all.jar",
+      "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
+      "size": 7442998,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "ordsPcFz"
+    },
+    {
+      "fileName": "CustomSkinLoader_ForgeV2-14.28.jar",
+      "title": "CustomSkinLoader",
+      "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/Rcbx2QhV/CustomSkinLoader_ForgeV2-14.28.jar",
+      "sha1": "c7e87169bd8b59a9414620dd0fd63ca5a17c235d",
+      "size": 153877,
+      "side": "client",
+      "source": "modrinth"
+    }
+  ],
+  "skins": [],
+  "host": "gabrielitagaming",
+  "port": 25565,
+  "lan": true,
+  "createdAt": "2026-09-26T09:08:13Z",
+  "updatedAt": "2026-09-26T09:08:13Z"
+}
