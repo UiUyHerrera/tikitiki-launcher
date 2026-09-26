@@ -1,5 +1,5 @@
 {
-  "serverName": "PRUEBA DESHACER",
+  "serverName": "SERVER TIKITIKI COBBLEMON BY XENS",
   "serverAddress": "localhost",
   "serverIcon": "server/icon.png",
   "serverIconSha1": "93a449b66baa1e408fd0aa57149936abf83e3459",
@@ -208,5 +208,5 @@
       "sha1": "848615babfa036785a08deec4142853b2326bf01"
     }
   ],
-  "updatedAt": "2026-09-26T06:37:45Z"
+  "updatedAt": "2026-09-26T06:34:33Z"
 }
