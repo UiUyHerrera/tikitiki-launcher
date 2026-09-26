@@ -8,78 +8,7 @@
     "type": "forge",
     "version": "47.4.10"
   },
-  "mods": [
-    {
-      "fileName": "Cobblemon-forge-1.5.2+1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/vm5zUZAg/Cobblemon-forge-1.5.2%2B1.20.1.jar",
-      "sha1": "02601f79f0c442b75463538da7a3c7f260fda42e",
-      "size": 104105045,
-      "side": "both",
-      "source": "modrinth",
-      "title": "Cobblemon",
-      "projectId": "MdwFAVRL"
-    },
-    {
-      "fileName": "kotlinforforge-4.12.0-all.jar",
-      "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/Zsh14XeQ/kotlinforforge-4.12.0-all.jar",
-      "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
-      "size": 7442998,
-      "side": "both",
-      "source": "modrinth",
-      "title": "Kotlin for Forge",
-      "projectId": "ordsPcFz"
-    },
-    {
-      "fileName": "CustomSkinLoader_ForgeV2-14.28.jar",
-      "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/Rcbx2QhV/CustomSkinLoader_ForgeV2-14.28.jar",
-      "sha1": "c7e87169bd8b59a9414620dd0fd63ca5a17c235d",
-      "size": 153877,
-      "side": "client",
-      "source": "modrinth",
-      "title": "CustomSkinLoader",
-      "projectId": "idMHQ4n2"
-    },
-    {
-      "fileName": "artifacts-forge-9.5.19.jar",
-      "url": "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/lrLPBSzq/artifacts-forge-9.5.19.jar",
-      "sha1": "91ab6fc2cc208550f7fc37c43e42eba81eff318e",
-      "size": 850974,
-      "side": "both",
-      "source": "modrinth",
-      "title": "Artifacts",
-      "projectId": "P0Mu4wcQ"
-    },
-    {
-      "fileName": "architectury-9.2.14-forge.jar",
-      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
-      "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
-      "size": 580602,
-      "side": "both",
-      "source": "modrinth",
-      "title": "Architectury API",
-      "projectId": "lhGA9TYQ"
-    },
-    {
-      "fileName": "cloth-config-11.1.136-forge.jar",
-      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
-      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
-      "size": 1181413,
-      "side": "both",
-      "source": "modrinth",
-      "title": "Cloth Config API",
-      "projectId": "9s6osm5g"
-    },
-    {
-      "fileName": "curios-forge-5.14.1+1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
-      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
-      "size": 398066,
-      "side": "both",
-      "source": "modrinth",
-      "title": "Curios API",
-      "projectId": "vvuO3ImH"
-    }
-  ],
+  "mods": [],
   "skins": [
     {
       "id": "alex-slim",
@@ -208,5 +137,5 @@
       "sha1": "848615babfa036785a08deec4142853b2326bf01"
     }
   ],
-  "updatedAt": "2026-09-26T07:23:58Z"
+  "updatedAt": "2026-09-26T12:10:35Z"
 }
