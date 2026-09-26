@@ -2,7 +2,7 @@
   "id": "adawdprueba1-2447",
   "codeHash": "6bc05fa86da889c3a6d2a521529a4d2ef8b4b29c135aa18819e885013e8bea12",
   "serverName": "ADAWDPRUEBA1",
-  "serverAddress": "",
+  "serverAddress": "carolyn-photos.tun.ply.gg",
   "serverIcon": "",
   "serverIconSha1": "",
   "minecraftVersion": "1.20.1",
@@ -26,5 +26,5 @@
   "port": 25565,
   "mode": "pc",
   "createdAt": "2026-09-26T09:45:35Z",
-  "updatedAt": "2026-09-26T09:45:35Z"
+  "updatedAt": "2026-09-26T09:48:10Z"
 }
