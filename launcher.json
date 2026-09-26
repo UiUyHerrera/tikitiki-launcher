@@ -28,11 +28,11 @@
       "source": "modrinth"
     },
     {
-      "fileName": "CustomSkinLoader_Universal-15.0.1.jar",
+      "fileName": "CustomSkinLoader_ForgeV2-14.28.jar",
       "title": "CustomSkinLoader",
-      "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/OLaesh5y/CustomSkinLoader_Universal-15.0.1.jar",
-      "sha1": "ab8dd841cafc3b4ecbf0250d3f5aee8a1fdb506a",
-      "size": 218215,
+      "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/Rcbx2QhV/CustomSkinLoader_ForgeV2-14.28.jar",
+      "sha1": "c7e87169bd8b59a9414620dd0fd63ca5a17c235d",
+      "size": 153877,
       "side": "client",
       "source": "modrinth"
     }
