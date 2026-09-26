@@ -1,0 +1,21 @@
+{
+  "id": "vita-3723",
+  "codeHash": "7e27d4a78cb59957b58202cd7f96f06d0d77fd109e2baaec90a6fe6807778cd6",
+  "serverName": "vita",
+  "serverAddress": "",
+  "serverIcon": "servers/vita-3723.png",
+  "serverIconSha1": "b5a13d8324c4b5e275cd2f7233d109fd75a2b487",
+  "minecraftVersion": "1.8.9",
+  "loader": {
+    "type": "vanilla",
+    "version": ""
+  },
+  "mods": [],
+  "skins": [],
+  "host": "heterofemboy67",
+  "port": 25565,
+  "mode": "pc",
+  "optifine": false,
+  "createdAt": "2026-09-26T14:07:34Z",
+  "updatedAt": "2026-09-26T14:07:34Z"
+}
