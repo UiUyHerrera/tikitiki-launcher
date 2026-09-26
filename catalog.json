@@ -1,0 +1,13 @@
+[
+ {
+  "title": "PruebaFine",
+  "fileName": "PruebaFine-1.0.jar",
+  "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/server-mods/d0a693be-PruebaFine-1.0.jar",
+  "sha1": "d0a693bea03f477216a108d2dca260bbec20606a",
+  "size": 207,
+  "side": "both",
+  "version": "1.20.1",
+  "loader": "forge",
+  "by": "Tester"
+ }
+]
