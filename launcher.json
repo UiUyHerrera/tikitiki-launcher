@@ -35,6 +35,15 @@
       "side": "client",
       "source": "modrinth",
       "title": "CustomSkinLoader"
+    },
+    {
+      "fileName": "artifacts-forge-9.5.19.jar",
+      "title": "Artifacts",
+      "url": "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/lrLPBSzq/artifacts-forge-9.5.19.jar",
+      "sha1": "91ab6fc2cc208550f7fc37c43e42eba81eff318e",
+      "size": 850974,
+      "side": "both",
+      "source": "modrinth"
     }
   ],
   "skins": [
@@ -165,5 +174,5 @@
       "sha1": "848615babfa036785a08deec4142853b2326bf01"
     }
   ],
-  "updatedAt": "2026-09-26T04:07:33Z"
+  "updatedAt": "2026-09-26T05:12:11Z"
 }
