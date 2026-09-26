@@ -8,7 +8,517 @@
     "type": "forge",
     "version": "47.4.10"
   },
-  "mods": [],
+  "mods": [
+    {
+      "fileName": "artifacts-forge-9.5.19.jar",
+      "title": "Artifacts",
+      "url": "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/lrLPBSzq/artifacts-forge-9.5.19.jar",
+      "sha1": "91ab6fc2cc208550f7fc37c43e42eba81eff318e",
+      "size": 850974,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "P0Mu4wcQ"
+    },
+    {
+      "fileName": "Cobblemon-forge-1.5.2+1.20.1.jar",
+      "title": "Cobblemon",
+      "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/vm5zUZAg/Cobblemon-forge-1.5.2%2B1.20.1.jar",
+      "sha1": "02601f79f0c442b75463538da7a3c7f260fda42e",
+      "size": 104105045,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "MdwFAVRL"
+    },
+    {
+      "fileName": "ironchest-1.20.1-14.4.4.jar",
+      "title": "Iron Chests",
+      "url": "https://cdn.modrinth.com/data/P3iIrPH3/versions/YjbOtYwN/ironchest-1.20.1-14.4.4.jar",
+      "sha1": "4b2dd0f581e40f8bd6f6e63b2d84c06dfde2c4eb",
+      "size": 311290,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "P3iIrPH3"
+    },
+    {
+      "fileName": "sophisticatedbackpacks-1.20.1-3.26.3.2157.jar",
+      "title": "Sophisticated Backpacks",
+      "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/XxOZuQnU/sophisticatedbackpacks-1.20.1-3.26.3.2157.jar",
+      "sha1": "efc831296f60a59792af142534d1c6dd1dff7f3f",
+      "size": 1223451,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "TyCTlI4b"
+    },
+    {
+      "fileName": "EasyAnvils-v8.0.2-1.20.1-Forge.jar",
+      "title": "Easy Anvils",
+      "url": "https://cdn.modrinth.com/data/OZBR5JT5/versions/4pRdDqEb/EasyAnvils-v8.0.2-1.20.1-Forge.jar",
+      "sha1": "d44a8b549b27713a92d59148729bf374ff3e25f0",
+      "size": 141744,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "OZBR5JT5"
+    },
+    {
+      "fileName": "EasyMagic-v8.0.1-1.20.1-Forge.jar",
+      "title": "Easy Magic",
+      "url": "https://cdn.modrinth.com/data/9hx3AbJM/versions/W2xPEG9I/EasyMagic-v8.0.1-1.20.1-Forge.jar",
+      "sha1": "9bfb5d63ac2e03ecdab8755c968ffa25b799469b",
+      "size": 115947,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "9hx3AbJM"
+    },
+    {
+      "fileName": "eatinganimation-1.20.1-5.1.0.jar",
+      "title": "Eating Animations",
+      "url": "https://cdn.modrinth.com/data/X8CISwXp/versions/WqBpsYBv/eatinganimation-1.20.1-5.1.0.jar",
+      "sha1": "d80502ca23195814f245bb8a4bffcb778ea4c02a",
+      "size": 294792,
+      "side": "client",
+      "source": "modrinth",
+      "projectId": "X8CISwXp"
+    },
+    {
+      "fileName": "notenoughanimations-forge-1.12.6-mc1.20.1.jar",
+      "title": "Not Enough Animations",
+      "url": "https://cdn.modrinth.com/data/MPCX6s5C/versions/kGjMleOz/notenoughanimations-forge-1.12.6-mc1.20.1.jar",
+      "sha1": "993252c9946e22aa4ba0b28cb5b81183d5bcf50d",
+      "size": 1870649,
+      "side": "client",
+      "source": "modrinth",
+      "projectId": "MPCX6s5C"
+    },
+    {
+      "fileName": "BetterThirdPerson-Forge-1.20-1.9.0.jar",
+      "title": "Better Third Person",
+      "url": "https://cdn.modrinth.com/data/G1s2WpNo/versions/XkYduFuv/BetterThirdPerson-Forge-1.20-1.9.0.jar",
+      "sha1": "0b0a3ff3b244fa191b3f9580547071dee46f7276",
+      "size": 61525,
+      "side": "client",
+      "source": "modrinth",
+      "projectId": "G1s2WpNo"
+    },
+    {
+      "fileName": "cavedust-2.0.4-1.20.1-forge.jar",
+      "title": "Cave Dust",
+      "url": "https://cdn.modrinth.com/data/jawg7zT1/versions/inDklMG3/cavedust-2.0.4-1.20.1-forge.jar",
+      "sha1": "c18fba965e5dab309de5adf9e8fd7ee3253be7e9",
+      "size": 32512,
+      "side": "client",
+      "source": "modrinth",
+      "projectId": "jawg7zT1"
+    },
+    {
+      "fileName": "SereneSeasons-forge-1.20.1-9.1.0.3.jar",
+      "title": "Serene Seasons",
+      "url": "https://cdn.modrinth.com/data/e0bNACJD/versions/WMrhrybF/SereneSeasons-forge-1.20.1-9.1.0.3.jar",
+      "sha1": "aaf4fb2289c085f758032dc0537ba40f10f3df89",
+      "size": 160886,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "e0bNACJD"
+    },
+    {
+      "fileName": "bettervillage-forge-1.20.1-3.3.1-all.jar",
+      "title": "Better Villages",
+      "url": "https://cdn.modrinth.com/data/dGVX5JbJ/versions/zvb4Gj0d/bettervillage-forge-1.20.1-3.3.1-all.jar",
+      "sha1": "9b7090217b1eab1fe0e84c50305d9623ad530485",
+      "size": 2612507,
+      "side": "server",
+      "source": "modrinth",
+      "projectId": "dGVX5JbJ"
+    },
+    {
+      "fileName": "Quark-4.0-462.jar",
+      "title": "Quark",
+      "url": "https://cdn.modrinth.com/data/qnQsVE2z/versions/DijQLauD/Quark-4.0-462.jar",
+      "sha1": "9b0fb82995622a0070c00827c698c43b49d9d14b",
+      "size": 14935230,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "qnQsVE2z"
+    },
+    {
+      "fileName": "supplementaries-1.20-3.1.43-forge.jar",
+      "title": "Supplementaries",
+      "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/S0TIJ1hU/supplementaries-1.20-3.1.43-forge.jar",
+      "sha1": "326d65a29981de28016e3828370d68a8f63e1798",
+      "size": 13667742,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "fFEIiSDQ"
+    },
+    {
+      "fileName": "visuality-forge-2.2.0.jar",
+      "title": "Visuality: Reforged",
+      "url": "https://cdn.modrinth.com/data/z13R7Et1/versions/XuoohJcp/visuality-forge-2.2.0.jar",
+      "sha1": "d2e97dc6e001757191beef81c17c5269a2cf5600",
+      "size": 226834,
+      "side": "client",
+      "source": "modrinth",
+      "projectId": "z13R7Et1"
+    },
+    {
+      "fileName": "takesapillage-1.0.3-1.20.1.jar",
+      "title": "It Takes a Pillage",
+      "url": "https://cdn.modrinth.com/data/pe7FN3d6/versions/unxodajn/takesapillage-1.0.3-1.20.1.jar",
+      "sha1": "058d29fcadbd5fa1fb6d92e50788329398f9467d",
+      "size": 3758273,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "pe7FN3d6"
+    },
+    {
+      "fileName": "FarmersDelight-1.20.1-1.3.4.jar",
+      "title": "Farmer's Delight",
+      "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/SiIpcZzM/FarmersDelight-1.20.1-1.3.4.jar",
+      "sha1": "26f615fd35f652021f5b0f1cba68afa7d578fe15",
+      "size": 3311051,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "R2OftAxM"
+    },
+    {
+      "fileName": "bushierflowers-0.0.3-1.20.1.jar",
+      "title": "Bushier Flowers",
+      "url": "https://cdn.modrinth.com/data/OK421ZCh/versions/hPR6ZSfe/bushierflowers-0.0.3-1.20.1.jar",
+      "sha1": "f37f505fbb57634a98672ba3efbd1949f3eee309",
+      "size": 319549,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "OK421ZCh"
+    },
+    {
+      "fileName": "VisualWorkbench-v8.0.1-1.20.1-Forge.jar",
+      "title": "Visual Workbench",
+      "url": "https://cdn.modrinth.com/data/kfqD1JRw/versions/qaWEHDC3/VisualWorkbench-v8.0.1-1.20.1-Forge.jar",
+      "sha1": "563804910a7ebb1082c1eedca363b16e2c572459",
+      "size": 82557,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "kfqD1JRw"
+    },
+    {
+      "fileName": "NekosEnchantedBooks-1.19.3-2.0.3.jar",
+      "title": "Neko's Enchanted Books",
+      "url": "https://cdn.modrinth.com/data/VZWuyRVr/versions/VpA4roMg/NekosEnchantedBooks-1.19.3-2.0.3.jar",
+      "sha1": "9b7494151519256774e893ca7ac5bffaa17f05b9",
+      "size": 418925,
+      "side": "client",
+      "source": "modrinth",
+      "projectId": "VZWuyRVr"
+    },
+    {
+      "fileName": "AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
+      "title": "AmbientSounds",
+      "url": "https://cdn.modrinth.com/data/fM515JnW/versions/AuLdtrBY/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
+      "sha1": "87ea0cd8ec56763185ee0db09eec7c676969e4da",
+      "size": 53429226,
+      "side": "client",
+      "source": "modrinth",
+      "projectId": "fM515JnW"
+    },
+    {
+      "fileName": "Presence Footsteps [FORGE] 1.0.0.jar",
+      "title": "Presence Footsteps [FORGE]",
+      "url": "https://cdn.modrinth.com/data/dLfueQtY/versions/mru6MmJT/Presence%20Footsteps%20%5BFORGE%5D%201.0.0.jar",
+      "sha1": "91feec51849155988b3a0f61431a655b51d2843a",
+      "size": 5567573,
+      "side": "client",
+      "source": "modrinth",
+      "projectId": "dLfueQtY"
+    },
+    {
+      "fileName": "fallingleaves-1.20.1-2.1.2.jar",
+      "title": "Falling Leaves (NeoForge/Forge)",
+      "url": "https://cdn.modrinth.com/data/2JAUNCL4/versions/j5eND1ZA/fallingleaves-1.20.1-2.1.2.jar",
+      "sha1": "b890536f44a5c0a49f2b1f4af91c17d948b4ef4d",
+      "size": 124212,
+      "side": "client",
+      "source": "modrinth",
+      "projectId": "2JAUNCL4"
+    },
+    {
+      "fileName": "moremobvariants-forge+1.20.1-1.3.0.1.jar",
+      "title": "More Mob Variants",
+      "url": "https://cdn.modrinth.com/data/JiEhJ3WG/versions/qtpseir7/moremobvariants-forge%2B1.20.1-1.3.0.1.jar",
+      "sha1": "0fad563c9d66e421b0b0d4541b33d18516446c58",
+      "size": 379988,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "JiEhJ3WG"
+    },
+    {
+      "fileName": "MoogsVoyagerStructures-universal-1.20-5.1.3.jar",
+      "title": "MVS - Moog's Voyager Structures",
+      "url": "https://cdn.modrinth.com/data/OQAgZMH1/versions/dMwX4GPR/MoogsVoyagerStructures-universal-1.20-5.1.3.jar",
+      "sha1": "10f6327a8586581bdad42515e527b4abbabbd2d0",
+      "size": 2432788,
+      "side": "server",
+      "source": "modrinth",
+      "projectId": "OQAgZMH1"
+    },
+    {
+      "fileName": "xaerominimap-forge-1.20.1-26.5.0.jar",
+      "title": "Xaero's Minimap",
+      "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/Juh6inLY/xaerominimap-forge-1.20.1-26.5.0.jar",
+      "sha1": "718a4339f6dad3a56b6e7243e62febfb643b7151",
+      "size": 2195399,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "1bokaNcj"
+    },
+    {
+      "fileName": "waystones-forge-1.20.1-14.1.21.jar",
+      "title": "Waystones",
+      "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/Y0IgdaoP/waystones-forge-1.20.1-14.1.21.jar",
+      "sha1": "61952fb248a9689fe46d5ffb223fcc41e31fef1a",
+      "size": 536782,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "LOpKHB2A"
+    },
+    {
+      "fileName": "jei-1.20.1-forge-15.56.0.205.jar",
+      "title": "Just Enough Items (JEI)",
+      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/9jqubC9n/jei-1.20.1-forge-15.56.0.205.jar",
+      "sha1": "7f64b7f8fde7f001ef054dabe3618a8780ba2650",
+      "size": 1778129,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "u6dRKJwZ"
+    },
+    {
+      "fileName": "Jade-1.20.1-Forge-11.13.3.jar",
+      "title": "Jade 🔍",
+      "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/xJQHCmWJ/Jade-1.20.1-Forge-11.13.3.jar",
+      "sha1": "d08e64e66521d69e083c8525f1fc507f1c202384",
+      "size": 553487,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "nvQzSEkH"
+    },
+    {
+      "fileName": "gravestone-forge-1.20.1-1.0.35.jar",
+      "title": "GraveStone Mod",
+      "url": "https://cdn.modrinth.com/data/RYtXKJPr/versions/q9kZE5Xo/gravestone-forge-1.20.1-1.0.35.jar",
+      "sha1": "9ec9da5da2a5884b6abff5f74a763a4f3e54fa38",
+      "size": 317181,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "RYtXKJPr"
+    },
+    {
+      "fileName": "rightclickharvest-forge-4.6.1+1.20.1.jar",
+      "title": "RightClickHarvest",
+      "url": "https://cdn.modrinth.com/data/Cnejf5xM/versions/NFxivT5s/rightclickharvest-forge-4.6.1%2B1.20.1.jar",
+      "sha1": "539bfd7e456eec310707ca577e029fb9ace626c7",
+      "size": 288408,
+      "side": "server",
+      "source": "modrinth",
+      "projectId": "Cnejf5xM"
+    },
+    {
+      "fileName": "watut-forge-1.20.1-1.2.3.jar",
+      "title": "What Are They Up To (Watut)",
+      "url": "https://cdn.modrinth.com/data/AtB5mHky/versions/GpiXMxvP/watut-forge-1.20.1-1.2.3.jar",
+      "sha1": "d376debf1f96f37dbedf56919baeb7da2dcef9ab",
+      "size": 435496,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "AtB5mHky"
+    },
+    {
+      "fileName": "Pretty Rain-1.20.1-Forge-1.1.3.jar",
+      "title": "Pretty Rain",
+      "url": "https://cdn.modrinth.com/data/IhZuHxkl/versions/ubdFPI1o/Pretty%20Rain-1.20.1-Forge-1.1.3.jar",
+      "sha1": "9b787b001c0b573927e21fd7b04254f0170e8157",
+      "size": 601125,
+      "side": "client",
+      "source": "modrinth",
+      "projectId": "IhZuHxkl"
+    },
+    {
+      "fileName": "ItemPhysic_FORGE_v1.8.17_mc1.20.1.jar",
+      "title": "ItemPhysic",
+      "url": "https://cdn.modrinth.com/data/aT8BzaOj/versions/W23Z3V3z/ItemPhysic_FORGE_v1.8.17_mc1.20.1.jar",
+      "sha1": "a762980ee2d96e5e08a4f8a0a4f8b6ee58b17fb6",
+      "size": 55877,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "aT8BzaOj"
+    },
+    {
+      "fileName": "kotlinforforge-4.12.0-all.jar",
+      "title": "Kotlin for Forge",
+      "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/Zsh14XeQ/kotlinforforge-4.12.0-all.jar",
+      "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
+      "size": 7442998,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "ordsPcFz"
+    },
+    {
+      "fileName": "sophisticatedcore-1.20.1-1.5.1.2335.jar",
+      "title": "Sophisticated Core",
+      "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/1Xl7lP0L/sophisticatedcore-1.20.1-1.5.1.2335.jar",
+      "sha1": "24d7f2ee72127b7f1148245e57979e87b0b189ec",
+      "size": 1734797,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "nmoqTijg"
+    },
+    {
+      "fileName": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+      "title": "Puzzles Lib",
+      "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/mIyVGf3d/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+      "sha1": "285b7c7616971338ccbe0022c9ea0f8ad3036aaf",
+      "size": 1342987,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "QAGBst4M"
+    },
+    {
+      "fileName": "gml-4.0.10-all.jar",
+      "title": "GroovyModLoader (GML)",
+      "url": "https://cdn.modrinth.com/data/zg2tT2Vu/versions/s7gFqeVL/gml-4.0.10-all.jar",
+      "sha1": "6322f1ea643efbb4ae9eb291d133b94d222b4916",
+      "size": 11125462,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "zg2tT2Vu"
+    },
+    {
+      "fileName": "GlitchCore-forge-1.20.1-0.0.1.1.jar",
+      "title": "GlitchCore",
+      "url": "https://cdn.modrinth.com/data/s3dmwKy5/versions/pYPZ5MNI/GlitchCore-forge-1.20.1-0.0.1.1.jar",
+      "sha1": "bba0b08fe76b28b35243fee53f99d54a18153b53",
+      "size": 87551,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "s3dmwKy5"
+    },
+    {
+      "fileName": "libraryferret-forge-1.20.1-4.0.0.jar",
+      "title": "Library Ferret",
+      "url": "https://cdn.modrinth.com/data/DOB2l4oJ/versions/wl68oCTb/libraryferret-forge-1.20.1-4.0.0.jar",
+      "sha1": "d99bd31f1b8f85cd97e86c2771dc7e715fde4807",
+      "size": 244410,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "DOB2l4oJ"
+    },
+    {
+      "fileName": "Zeta-1.0-31.jar",
+      "title": "Zeta",
+      "url": "https://cdn.modrinth.com/data/MVARlG2f/versions/mSER3jBI/Zeta-1.0-31.jar",
+      "sha1": "8c4a8ef0444b53ff408d5b89126285031081d92f",
+      "size": 1006518,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "MVARlG2f"
+    },
+    {
+      "fileName": "moonlight-1.20-2.16.35-forge.jar",
+      "title": "Moonlight Lib",
+      "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/W0ZWjZib/moonlight-1.20-2.16.35-forge.jar",
+      "sha1": "a7885d318f5a6810b0ef543cd1cce7d4308f10e6",
+      "size": 1425229,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "twkfQtEc"
+    },
+    {
+      "fileName": "CreativeCore_FORGE_v2.12.40_mc1.20.1.jar",
+      "title": "CreativeCore",
+      "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/ChKayKur/CreativeCore_FORGE_v2.12.40_mc1.20.1.jar",
+      "sha1": "f8b65310e0183630dd00c1ade12f9b6ecd243287",
+      "size": 1144290,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "OsZiaDHq"
+    },
+    {
+      "fileName": "MoogsStructureLib-forge-1.20-3.3.1.jar",
+      "title": "Moog's Structure Lib (moogs_structures)",
+      "url": "https://cdn.modrinth.com/data/1oUDhxuy/versions/Xe7AFvDZ/MoogsStructureLib-forge-1.20-3.3.1.jar",
+      "sha1": "77cb27cfe31bb13d8cf098eaf5a42af42ca74091",
+      "size": 440233,
+      "side": "server",
+      "source": "modrinth",
+      "projectId": "1oUDhxuy"
+    },
+    {
+      "fileName": "balm-forge-1.20.1-7.3.44.jar",
+      "title": "Balm",
+      "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/dDN38ae7/balm-forge-1.20.1-7.3.44.jar",
+      "sha1": "dae7e647fc54609e66e4f910931be65776352b72",
+      "size": 561741,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "MBAkmtvl"
+    },
+    {
+      "fileName": "architectury-9.2.14-forge.jar",
+      "title": "Architectury API",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+      "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+      "size": 580602,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "lhGA9TYQ"
+    },
+    {
+      "fileName": "jamlib-forge-1.3.6+1.20.1-patch.1.jar",
+      "title": "JamLib",
+      "url": "https://cdn.modrinth.com/data/IYY9Siz8/versions/PDIowNff/jamlib-forge-1.3.6%2B1.20.1-patch.1.jar",
+      "sha1": "1d376bf7e9e516869fac7f58ec5ac1dd48830f0c",
+      "size": 191607,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "IYY9Siz8"
+    },
+    {
+      "fileName": "coroutil-forge-1.20.1-1.3.7.jar",
+      "title": "CoroUtil",
+      "url": "https://cdn.modrinth.com/data/rLLJ1OZM/versions/6rPDKAT8/coroutil-forge-1.20.1-1.3.7.jar",
+      "sha1": "7f5f0b62a638b6053c95919cbe8c2bea2e0c93d0",
+      "size": 64187,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "rLLJ1OZM"
+    },
+    {
+      "fileName": "CustomSkinLoader_ForgeV2-14.28.jar",
+      "title": "CustomSkinLoader",
+      "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/Rcbx2QhV/CustomSkinLoader_ForgeV2-14.28.jar",
+      "sha1": "c7e87169bd8b59a9414620dd0fd63ca5a17c235d",
+      "size": 153877,
+      "side": "client",
+      "source": "modrinth"
+    },
+    {
+      "fileName": "cloth-config-11.1.136-forge.jar",
+      "title": "Cloth Config API",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
+      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+      "size": 1181413,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "9s6osm5g"
+    },
+    {
+      "fileName": "curios-forge-5.14.1+1.20.1.jar",
+      "title": "Curios API",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
+      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+      "size": 398066,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "vvuO3ImH"
+    }
+  ],
   "skins": [
     {
       "id": "alex-slim",
@@ -137,5 +647,6 @@
       "sha1": "848615babfa036785a08deec4142853b2326bf01"
     }
   ],
-  "updatedAt": "2026-09-26T12:10:35Z"
+  "updatedAt": "2026-09-26T16:44:06Z",
+  "optifine": true
 }
