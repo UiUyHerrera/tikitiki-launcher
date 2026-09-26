@@ -2,7 +2,7 @@
   "id": "vitaerver-8889",
   "codeHash": "af426fcce9ad01ef97b6cf29b76480ca51468beb979880d4fb80d4ce8064b4c1",
   "serverName": "vitaerver",
-  "serverAddress": "",
+  "serverAddress": "167.59.190.146:25565",
   "serverIcon": "",
   "serverIconSha1": "",
   "minecraftVersion": "1.20.1",
@@ -296,5 +296,5 @@
   "port": 25565,
   "mode": "pc",
   "createdAt": "2026-09-26T12:24:19Z",
-  "updatedAt": "2026-09-26T12:24:19Z"
+  "updatedAt": "2026-09-26T12:26:25Z"
 }
