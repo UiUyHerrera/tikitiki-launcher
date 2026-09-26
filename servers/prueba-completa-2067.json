@@ -2,7 +2,7 @@
   "id": "prueba-completa-2067",
   "codeHash": "7b5285b7a94ca2cadb184031e9349c8b440b855a7323d3bb466426d8275f3d6d",
   "serverName": "Prueba Completa",
-  "serverAddress": "",
+  "serverAddress": "167.59.190.146:25565",
   "serverIcon": "",
   "serverIconSha1": "",
   "minecraftVersion": "1.20.1",
@@ -26,5 +26,5 @@
   "port": 25565,
   "mode": "pc",
   "createdAt": "2026-09-26T12:51:14Z",
-  "updatedAt": "2026-09-26T12:51:14Z"
+  "updatedAt": "2026-09-26T12:52:21Z"
 }
