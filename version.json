@@ -1,9 +1,9 @@
 {
-  "version": "1.8.6",
+  "version": "1.8.7",
   "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/launcher/TikiTiki.exe",
-  "sha1": "02d94f1b74ac63d32163572489d81b7b862c6ba2",
-  "size": 35286920,
+  "sha1": "d0cf8fbbf8c58f5b12dfd7245b2684277ab585bc",
+  "size": 35293500,
   "setup": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/launcher/TikiTikiSetup.exe",
-  "setupSha1": "bbb7ce4998f814a3d8bd82198e6f53bab5419d97",
-  "setupSize": 26507727
+  "setupSha1": "fd50468188f698894ae6a175a4c635449dbb853c",
+  "setupSize": 26508731
 }
