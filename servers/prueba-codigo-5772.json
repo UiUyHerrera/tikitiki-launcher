@@ -2,7 +2,7 @@
   "id": "prueba-codigo-5772",
   "codeHash": "8695b7f30dca203b59c88ecb0972a5a31ca7b64de459ec17f44436a8236119a8",
   "serverName": "Prueba Codigo",
-  "serverAddress": "",
+  "serverAddress": "167.59.190.146:25565",
   "serverIcon": "",
   "serverIconSha1": "",
   "minecraftVersion": "1.20.1",
@@ -16,5 +16,5 @@
   "port": 25565,
   "mode": "pc",
   "createdAt": "2026-09-26T09:31:58Z",
-  "updatedAt": "2026-09-26T09:31:58Z"
+  "updatedAt": "2026-09-26T09:32:30Z"
 }
