@@ -1,12 +1,12 @@
 {
   "serverName": "SERVER TIKITIKI COBBLEMON BY XENS",
-  "serverAddress": "localhost",
+  "serverAddress": "",
   "serverIcon": "server/icon.png",
   "serverIconSha1": "12af38e29560b244203857f07b13fafb8eee7a74",
   "minecraftVersion": "1.20.1",
   "loader": {
-    "type": "forge",
-    "version": "47.4.10"
+    "type": "vanilla",
+    "version": ""
   },
   "mods": [],
   "skins": [
@@ -137,5 +137,5 @@
       "sha1": "848615babfa036785a08deec4142853b2326bf01"
     }
   ],
-  "updatedAt": "2026-09-26T12:10:35Z"
+  "updatedAt": "2026-09-26T13:02:39Z"
 }
