@@ -1,6 +1,4 @@
 {
-  "id": "prueba-codigo-4636",
-  "codeHash": "229d47021020cfb5a2e2fb6d3f5bd12426474547cc5305ad74526f23e53ea336",
   "serverName": "Prueba Codigo",
   "serverAddress": "167.59.190.146:25565",
   "serverIcon": "",
@@ -12,9 +10,10 @@
   },
   "mods": [],
   "skins": [],
+  "updatedAt": "2026-09-26T09:33:46Z",
+  "id": "prueba-codigo-4636",
   "host": "gabrielitagaming",
-  "port": 25565,
-  "mode": "pc",
   "createdAt": "2026-09-26T09:33:13Z",
-  "updatedAt": "2026-09-26T09:33:42Z"
+  "port": 25565,
+  "mode": "pc"
 }
