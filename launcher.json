@@ -1,0 +1,169 @@
+{
+  "serverName": "SERVER TIKITIKI COBBLEMON BY XENS",
+  "serverAddress": "localhost",
+  "serverIcon": "server/icon.png",
+  "serverIconSha1": "93a449b66baa1e408fd0aa57149936abf83e3459",
+  "minecraftVersion": "1.20.1",
+  "loader": {
+    "type": "forge",
+    "version": "47.4.10"
+  },
+  "mods": [
+    {
+      "fileName": "Cobblemon-forge-1.5.2+1.20.1.jar",
+      "title": "Cobblemon",
+      "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/vm5zUZAg/Cobblemon-forge-1.5.2%2B1.20.1.jar",
+      "sha1": "02601f79f0c442b75463538da7a3c7f260fda42e",
+      "size": 104105045,
+      "side": "both",
+      "source": "modrinth"
+    },
+    {
+      "fileName": "kotlinforforge-4.12.0-all.jar",
+      "title": "Kotlin for Forge",
+      "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/Zsh14XeQ/kotlinforforge-4.12.0-all.jar",
+      "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
+      "size": 7442998,
+      "side": "both",
+      "source": "modrinth"
+    },
+    {
+      "fileName": "CustomSkinLoader_Universal-15.0.1.jar",
+      "title": "CustomSkinLoader",
+      "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/OLaesh5y/CustomSkinLoader_Universal-15.0.1.jar",
+      "sha1": "ab8dd841cafc3b4ecbf0250d3f5aee8a1fdb506a",
+      "size": 218215,
+      "side": "client",
+      "source": "modrinth"
+    }
+  ],
+  "skins": [
+    {
+      "id": "alex-slim",
+      "name": "Alex fino",
+      "model": "slim",
+      "file": "skins/alex-slim.png",
+      "sha1": "2e191c48e7c0fe120a3adb2425773688d15021fe"
+    },
+    {
+      "id": "ari-slim",
+      "name": "Ari fino",
+      "model": "slim",
+      "file": "skins/ari-slim.png",
+      "sha1": "745417f10866ee5130469efb9edcddf27f1ce5b3"
+    },
+    {
+      "id": "efe-slim",
+      "name": "Efe fino",
+      "model": "slim",
+      "file": "skins/efe-slim.png",
+      "sha1": "dfc845526527f29cfc46279d033bd05a86ed085c"
+    },
+    {
+      "id": "kai-slim",
+      "name": "Kai fino",
+      "model": "slim",
+      "file": "skins/kai-slim.png",
+      "sha1": "706559d6bdf11a18621d830efa7c4c6a12b1a2b4"
+    },
+    {
+      "id": "makena-slim",
+      "name": "Makena fino",
+      "model": "slim",
+      "file": "skins/makena-slim.png",
+      "sha1": "74ce72ce43faa29eef0a12e66b0000de6a912eaf"
+    },
+    {
+      "id": "noor-slim",
+      "name": "Noor fino",
+      "model": "slim",
+      "file": "skins/noor-slim.png",
+      "sha1": "4d3fbd9d52341356ab76c15e973e61562afe8344"
+    },
+    {
+      "id": "steve-slim",
+      "name": "Steve fino",
+      "model": "slim",
+      "file": "skins/steve-slim.png",
+      "sha1": "60c5356b8b672944bf13f9e96bb00e6d7bff0533"
+    },
+    {
+      "id": "sunny-slim",
+      "name": "Sunny fino",
+      "model": "slim",
+      "file": "skins/sunny-slim.png",
+      "sha1": "64ae4556d10665de238c7106912d45e70cdc27de"
+    },
+    {
+      "id": "zuri-slim",
+      "name": "Zuri fino",
+      "model": "slim",
+      "file": "skins/zuri-slim.png",
+      "sha1": "1277a561362c72b2aa906f67713178da04a805fb"
+    },
+    {
+      "id": "alex-classic",
+      "name": "Alex",
+      "model": "classic",
+      "file": "skins/alex-classic.png",
+      "sha1": "79636fadb253a6af9736ab2dff05f9c11975d0fe"
+    },
+    {
+      "id": "ari-classic",
+      "name": "Ari",
+      "model": "classic",
+      "file": "skins/ari-classic.png",
+      "sha1": "bb71e30d9bb1f4c5dee700f4684c89523b644c46"
+    },
+    {
+      "id": "efe-classic",
+      "name": "Efe",
+      "model": "classic",
+      "file": "skins/efe-classic.png",
+      "sha1": "3b3bc0092cef47b05d3d6e34d4307c07dcd18908"
+    },
+    {
+      "id": "kai-classic",
+      "name": "Kai",
+      "model": "classic",
+      "file": "skins/kai-classic.png",
+      "sha1": "2cef404c76c37e3dea0211bbd0f618c62a461abc"
+    },
+    {
+      "id": "makena-classic",
+      "name": "Makena",
+      "model": "classic",
+      "file": "skins/makena-classic.png",
+      "sha1": "d2dd8ba3972ec56ca7bef58d0042d38534e2d43a"
+    },
+    {
+      "id": "noor-classic",
+      "name": "Noor",
+      "model": "classic",
+      "file": "skins/noor-classic.png",
+      "sha1": "f1ba1f1d7bd057fddefd2f2f8993665d84af679e"
+    },
+    {
+      "id": "steve-classic",
+      "name": "Steve",
+      "model": "classic",
+      "file": "skins/steve-classic.png",
+      "sha1": "46b9aa7b7965f9397e49fb5a0051711b6b8c1a08"
+    },
+    {
+      "id": "sunny-classic",
+      "name": "Sunny",
+      "model": "classic",
+      "file": "skins/sunny-classic.png",
+      "sha1": "1deee4bfeb8b6772a6dade787914c759020ee368"
+    },
+    {
+      "id": "zuri-classic",
+      "name": "Zuri",
+      "model": "classic",
+      "file": "skins/zuri-classic.png",
+      "sha1": "848615babfa036785a08deec4142853b2326bf01"
+    }
+  ],
+  "updatedAt": "2026-09-26T00:00:00Z"
+}
