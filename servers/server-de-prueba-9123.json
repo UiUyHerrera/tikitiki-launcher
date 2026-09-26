@@ -2,7 +2,7 @@
   "id": "server-de-prueba-9123",
   "codeHash": "a2dd6419aca872fdcabe98b2bae39f693d7411134f86e6f2e65ab163009c48cb",
   "serverName": "Server de Prueba",
-  "serverAddress": "",
+  "serverAddress": "167.59.190.146:25565",
   "serverIcon": "",
   "serverIconSha1": "",
   "minecraftVersion": "1.8.9",
@@ -16,5 +16,5 @@
   "port": 25565,
   "mode": "pc",
   "createdAt": "2026-09-26T10:02:58Z",
-  "updatedAt": "2026-09-26T10:02:58Z"
+  "updatedAt": "2026-09-26T10:03:25Z"
 }
