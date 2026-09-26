@@ -1,5 +1,4 @@
 {
-  "id": "prueba-mis-servers-1019",
   "serverName": "Prueba Mis Servers",
   "serverAddress": "carolyn-management.tun.ply.gg",
   "serverIcon": "",
@@ -12,17 +11,29 @@
   "mods": [
     {
       "fileName": "CustomSkinLoader_Universal-15.0.1.jar",
-      "title": "CustomSkinLoader",
       "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/OLaesh5y/CustomSkinLoader_Universal-15.0.1.jar",
       "sha1": "ab8dd841cafc3b4ecbf0250d3f5aee8a1fdb506a",
       "size": 218215,
       "side": "client",
-      "source": "modrinth"
+      "source": "modrinth",
+      "title": "CustomSkinLoader",
+      "projectId": "idMHQ4n2"
+    },
+    {
+      "fileName": "sodium-fabric-0.5.13+mc1.20.1.jar",
+      "title": "Sodium",
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/OihdIimA/sodium-fabric-0.5.13%2Bmc1.20.1.jar",
+      "sha1": "bcdbf37d9494e405cba210d7a80ed58e756297b5",
+      "size": 971552,
+      "side": "client",
+      "source": "modrinth",
+      "projectId": "AANobbMI"
     }
   ],
   "skins": [],
+  "updatedAt": "2026-09-26T07:45:53Z",
+  "id": "prueba-mis-servers-1019",
   "host": "pepardovich",
-  "port": 25565,
   "createdAt": "2026-09-26T07:45:13Z",
-  "updatedAt": "2026-09-26T07:45:46Z"
+  "port": 25565
 }
