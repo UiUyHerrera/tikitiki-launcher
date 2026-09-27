@@ -54,7 +54,6 @@ Los `.jar` no se guardan en el repo. Cada mod de la lista apunta a su descarga o
 | [Kotlin for Forge](https://modrinth.com/mod/ordsPcFz) | Cliente y server |
 | [Library Ferret](https://modrinth.com/mod/DOB2l4oJ) | Cliente y server |
 | [Moog's Structure Lib (moogs_structures)](https://modrinth.com/mod/1oUDhxuy) | Solo server |
-| [Moonlight Lib](https://modrinth.com/mod/twkfQtEc) | Cliente y server |
 | [More Mob Variants](https://modrinth.com/mod/JiEhJ3WG) | Cliente y server |
 | [MVS - Moog's Voyager Structures](https://modrinth.com/mod/OQAgZMH1) | Solo server |
 | [Neko's Enchanted Books](https://modrinth.com/mod/VZWuyRVr) | Solo cliente |
