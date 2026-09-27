@@ -19,7 +19,7 @@ Los `.jar` no se guardan en el repo. Cada mod de la lista apunta a su descarga o
 
 ## Mods
 
-48 mods.
+47 mods.
 
 | Mod | Dónde va |
 |---|---|
@@ -59,7 +59,6 @@ Los `.jar` no se guardan en el repo. Cada mod de la lista apunta a su descarga o
 | [Neko's Enchanted Books](https://modrinth.com/mod/VZWuyRVr) | Solo cliente |
 | [Not Enough Animations](https://modrinth.com/mod/MPCX6s5C) | Solo cliente |
 | [Presence Footsteps [FORGE]](https://modrinth.com/mod/dLfueQtY) | Solo cliente |
-| [Pretty Rain](https://modrinth.com/mod/IhZuHxkl) | Solo cliente |
 | [Puzzles Lib](https://modrinth.com/mod/QAGBst4M) | Cliente y server |
 | [Quark](https://modrinth.com/mod/qnQsVE2z) | Cliente y server |
 | [RightClickHarvest](https://modrinth.com/mod/Cnejf5xM) | Solo server |
