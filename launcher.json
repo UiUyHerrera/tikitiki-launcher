@@ -8,7 +8,7 @@
     "type": "forge",
     "version": "47.4.10"
   },
-  "optifine": true,
+  "optifine": false,
   "mods": [
     {
       "fileName": "artifacts-forge-9.5.19.jar",
