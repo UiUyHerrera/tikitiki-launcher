@@ -19,7 +19,7 @@ Los `.jar` no se guardan en el repo. Cada mod de la lista apunta a su descarga o
 
 ## Mods
 
-49 mods.
+48 mods.
 
 | Mod | Dónde va |
 |---|---|
@@ -67,7 +67,6 @@ Los `.jar` no se guardan en el repo. Cada mod de la lista apunta a su descarga o
 | [Sophisticated Backpacks](https://modrinth.com/mod/TyCTlI4b) | Cliente y server |
 | [Sophisticated Core](https://modrinth.com/mod/nmoqTijg) | Cliente y server |
 | [Visual Workbench](https://modrinth.com/mod/kfqD1JRw) | Cliente y server |
-| [Visuality: Reforged](https://modrinth.com/mod/z13R7Et1) | Solo cliente |
 | [Waystones](https://modrinth.com/mod/LOpKHB2A) | Cliente y server |
 | [What Are They Up To (Watut)](https://modrinth.com/mod/AtB5mHky) | Cliente y server |
 | [Xaero's Minimap](https://modrinth.com/mod/1bokaNcj) | Cliente y server |
