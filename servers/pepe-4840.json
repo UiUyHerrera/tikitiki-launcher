@@ -1,0 +1,71 @@
+{
+  "id": "pepe-4840",
+  "codeHash": "45a5518315ab18456f5d04f5eb3f11a533555a40d613aa51f65b8a2508ef7025",
+  "serverName": "pepe",
+  "serverAddress": "",
+  "serverIcon": "servers/pepe-4840.png",
+  "serverIconSha1": "19e3ea3b73b4fdf6f0ac9c6ff18c06a4ac661619",
+  "minecraftVersion": "1.20.1",
+  "loader": {
+    "type": "forge",
+    "version": "47.4.5"
+  },
+  "mods": [
+    {
+      "fileName": "artifacts-forge-9.5.19.jar",
+      "title": "Artifacts",
+      "url": "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/lrLPBSzq/artifacts-forge-9.5.19.jar",
+      "sha1": "91ab6fc2cc208550f7fc37c43e42eba81eff318e",
+      "size": 850974,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "P0Mu4wcQ"
+    },
+    {
+      "fileName": "architectury-9.2.14-forge.jar",
+      "title": "Architectury API",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
+      "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
+      "size": 580602,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "lhGA9TYQ"
+    },
+    {
+      "fileName": "cloth-config-11.1.136-forge.jar",
+      "title": "Cloth Config API",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
+      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
+      "size": 1181413,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "9s6osm5g"
+    },
+    {
+      "fileName": "curios-forge-5.14.1+1.20.1.jar",
+      "title": "Curios API",
+      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
+      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
+      "size": 398066,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "vvuO3ImH"
+    },
+    {
+      "fileName": "CustomSkinLoader_ForgeV2-14.28.jar",
+      "title": "CustomSkinLoader",
+      "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/Rcbx2QhV/CustomSkinLoader_ForgeV2-14.28.jar",
+      "sha1": "c7e87169bd8b59a9414620dd0fd63ca5a17c235d",
+      "size": 153877,
+      "side": "client",
+      "source": "modrinth"
+    }
+  ],
+  "skins": [],
+  "host": "heterofemboy67",
+  "port": 25565,
+  "mode": "pc",
+  "optifine": true,
+  "createdAt": "2026-09-27T17:03:09Z",
+  "updatedAt": "2026-09-27T17:03:09Z"
+}
