@@ -2,7 +2,7 @@
   "id": "pepe-4840",
   "codeHash": "45a5518315ab18456f5d04f5eb3f11a533555a40d613aa51f65b8a2508ef7025",
   "serverName": "pepe",
-  "serverAddress": "",
+  "serverAddress": "186.54.178.241:25565",
   "serverIcon": "servers/pepe-4840.png",
   "serverIconSha1": "19e3ea3b73b4fdf6f0ac9c6ff18c06a4ac661619",
   "minecraftVersion": "1.20.1",
@@ -67,5 +67,5 @@
   "mode": "pc",
   "optifine": true,
   "createdAt": "2026-09-27T17:03:09Z",
-  "updatedAt": "2026-09-27T17:03:09Z"
+  "updatedAt": "2026-09-27T17:04:16Z"
 }
