@@ -19,7 +19,7 @@ Los `.jar` no se guardan en el repo. Cada mod de la lista apunta a su descarga o
 
 ## Mods
 
-46 mods.
+48 mods.
 
 | Mod | Dónde va |
 |---|---|
@@ -58,10 +58,12 @@ Los `.jar` no se guardan en el repo. Cada mod de la lista apunta a su descarga o
 | [MVS - Moog's Voyager Structures](https://modrinth.com/mod/OQAgZMH1) | Solo server |
 | [Neko's Enchanted Books](https://modrinth.com/mod/VZWuyRVr) | Solo cliente |
 | [Not Enough Animations](https://modrinth.com/mod/MPCX6s5C) | Solo cliente |
+| [Only Hammers and Excavators](https://modrinth.com/mod/OwtcCsNI) | Cliente y server |
 | [Puzzles Lib](https://modrinth.com/mod/QAGBst4M) | Cliente y server |
 | [Quark](https://modrinth.com/mod/qnQsVE2z) | Cliente y server |
 | [RightClickHarvest](https://modrinth.com/mod/Cnejf5xM) | Solo server |
 | [Serene Seasons](https://modrinth.com/mod/e0bNACJD) | Cliente y server |
+| [SimpleTMs](https://modrinth.com/mod/yFqR0DNc) | Cliente y server |
 | [Sophisticated Backpacks](https://modrinth.com/mod/TyCTlI4b) | Cliente y server |
 | [Sophisticated Core](https://modrinth.com/mod/nmoqTijg) | Cliente y server |
 | [Visual Workbench](https://modrinth.com/mod/kfqD1JRw) | Cliente y server |
@@ -69,6 +71,10 @@ Los `.jar` no se guardan en el repo. Cada mod de la lista apunta a su descarga o
 | [What Are They Up To (Watut)](https://modrinth.com/mod/AtB5mHky) | Cliente y server |
 | [Xaero's Minimap](https://modrinth.com/mod/1bokaNcj) | Cliente y server |
 | [Zeta](https://modrinth.com/mod/MVARlG2f) | Cliente y server |
+
+## Datapack
+
+El server usa [Legends & Myths](https://modrinth.com/datapack/legends-myths), que agrega legendarios y míticos. Las texturas llegan como paquete de recursos del server al entrar.
 
 ## Instalar a mano
 

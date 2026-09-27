@@ -469,6 +469,26 @@
       "source": "modrinth",
       "title": "Curios API",
       "projectId": "vvuO3ImH"
+    },
+    {
+      "fileName": "SimpleTMsForge-1.1.2.jar",
+      "url": "https://cdn.modrinth.com/data/yFqR0DNc/versions/l3rUJL9l/SimpleTMsForge-1.1.2.jar",
+      "sha1": "5bd648b08196658bcd515cb5d6f4e6f4248f81f2",
+      "size": 1598405,
+      "side": "both",
+      "source": "modrinth",
+      "title": "SimpleTMs",
+      "projectId": "yFqR0DNc"
+    },
+    {
+      "fileName": "onlyhammersandexcavators-1.20.1-0.8.jar",
+      "url": "https://cdn.modrinth.com/data/OwtcCsNI/versions/TXwl6Ctp/onlyhammersandexcavators-1.20.1-0.8.jar",
+      "sha1": "f7601ddcb83a535e907f338d32b23fdfa957af01",
+      "size": 108908,
+      "side": "both",
+      "source": "modrinth",
+      "title": "Only Hammers and Excavators",
+      "projectId": "OwtcCsNI"
     }
   ],
   "skins": [
