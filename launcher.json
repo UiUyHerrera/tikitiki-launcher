@@ -8,7 +8,7 @@
     "type": "forge",
     "version": "47.4.10"
   },
-  "optifine": false,
+  "optifine": true,
   "mods": [
     {
       "fileName": "artifacts-forge-9.5.19.jar",
@@ -139,16 +139,6 @@
       "source": "modrinth",
       "title": "Quark",
       "projectId": "qnQsVE2z"
-    },
-    {
-      "fileName": "supplementaries-1.20-3.1.43-forge.jar",
-      "url": "https://cdn.modrinth.com/data/fFEIiSDQ/versions/S0TIJ1hU/supplementaries-1.20-3.1.43-forge.jar",
-      "sha1": "326d65a29981de28016e3828370d68a8f63e1798",
-      "size": 13667742,
-      "side": "both",
-      "source": "modrinth",
-      "title": "Supplementaries",
-      "projectId": "fFEIiSDQ"
     },
     {
       "fileName": "visuality-forge-2.2.0.jar",
@@ -419,16 +409,6 @@
       "source": "modrinth",
       "title": "Zeta",
       "projectId": "MVARlG2f"
-    },
-    {
-      "fileName": "moonlight-1.20-2.16.35-forge.jar",
-      "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/W0ZWjZib/moonlight-1.20-2.16.35-forge.jar",
-      "sha1": "a7885d318f5a6810b0ef543cd1cce7d4308f10e6",
-      "size": 1425229,
-      "side": "both",
-      "source": "modrinth",
-      "title": "Moonlight Lib",
-      "projectId": "twkfQtEc"
     },
     {
       "fileName": "CreativeCore_FORGE_v2.12.40_mc1.20.1.jar",
