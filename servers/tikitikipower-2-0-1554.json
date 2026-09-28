@@ -541,28 +541,28 @@
     },
     {
       "fileName": "accessories-fabric-1.1.0-beta.53+1.21.1.jar",
-      "title": "Accessories",
       "url": "https://cdn.modrinth.com/data/jtmvUHXj/versions/Xlt4eWBe/accessories-fabric-1.1.0-beta.53%2B1.21.1.jar",
       "sha1": "fa0b11de088893bb14aff945d0e8efdee165457b",
       "size": 1095802,
       "side": "both",
       "source": "modrinth",
+      "title": "Accessories",
       "projectId": "jtmvUHXj"
     },
     {
       "fileName": "owo-lib-0.12.15.4+1.21.jar",
-      "title": "owo-lib",
       "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/JB1fLQnc/owo-lib-0.12.15.4%2B1.21.jar",
       "sha1": "45725e6d33b624e565a7a6e5d3627af40814288d",
       "size": 1183559,
       "side": "both",
       "source": "modrinth",
+      "title": "owo-lib",
       "projectId": "ccKDOlHs"
     }
   ],
   "skins": [],
   "files": [],
-  "updatedAt": "2026-09-28T22:48:10Z",
+  "updatedAt": "2026-09-28T22:50:31Z",
   "id": "tikitikipower-2-0-1554",
   "host": "heterofemboy67",
   "createdAt": "2026-09-28T21:29:35Z",
