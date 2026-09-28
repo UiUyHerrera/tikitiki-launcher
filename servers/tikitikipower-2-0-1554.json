@@ -531,18 +531,18 @@
     },
     {
       "fileName": "just-hammers-fabric-21.1.4.jar",
-      "title": "Just Hammers",
       "url": "https://cdn.modrinth.com/data/edU0NbZZ/versions/EGzHAWo0/just-hammers-fabric-21.1.4.jar",
       "sha1": "052621a90647b5c4eb97130e48156672e60d2aff",
       "size": 108688,
       "side": "both",
       "source": "modrinth",
+      "title": "Just Hammers",
       "projectId": "edU0NbZZ"
     }
   ],
   "skins": [],
   "files": [],
-  "updatedAt": "2026-09-28T22:35:02Z",
+  "updatedAt": "2026-09-28T22:39:11Z",
   "id": "tikitikipower-2-0-1554",
   "host": "heterofemboy67",
   "createdAt": "2026-09-28T21:29:35Z",
