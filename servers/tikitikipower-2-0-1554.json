@@ -561,18 +561,18 @@
     },
     {
       "fileName": "proxlib-0.2.4+1.21.jar",
-      "title": "ProxLib",
       "url": "https://cdn.modrinth.com/data/hOMvyVn6/versions/BAAQMXWP/proxlib-0.2.4%2B1.21.jar",
       "sha1": "205ec054f34d7a1401954f6a09864b9bcb9ea548",
       "size": 25715,
       "side": "client",
       "source": "modrinth",
+      "title": "ProxLib",
       "projectId": "hOMvyVn6"
     }
   ],
   "skins": [],
   "files": [],
-  "updatedAt": "2026-09-28T22:52:42Z",
+  "updatedAt": "2026-09-28T22:54:21Z",
   "id": "tikitikipower-2-0-1554",
   "host": "heterofemboy67",
   "createdAt": "2026-09-28T21:29:35Z",
