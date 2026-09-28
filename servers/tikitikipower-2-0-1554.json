@@ -2,7 +2,7 @@
   "id": "tikitikipower-2-0-1554",
   "codeHash": "8b7206a9e3ab9f00f8db1e778b409f8832f627788c660bc9db120ce0518228c1",
   "serverName": "tikitikipower 2.0",
-  "serverAddress": "",
+  "serverAddress": "167.56.50.71:25565",
   "serverIcon": "servers/tikitikipower-2-0-1554.png",
   "serverIconSha1": "bafac383b2553f1ff663919c22c3271fabab74cd",
   "minecraftVersion": "1.21.1",
@@ -507,5 +507,5 @@
   "mode": "pc",
   "optifine": false,
   "createdAt": "2026-09-28T21:29:35Z",
-  "updatedAt": "2026-09-28T21:29:35Z"
+  "updatedAt": "2026-09-28T21:30:47Z"
 }
