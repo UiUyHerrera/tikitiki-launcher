@@ -488,11 +488,41 @@
       "side": "client",
       "source": "modrinth",
       "title": "CustomSkinLoader"
+    },
+    {
+      "fileName": "rctmod-fabric-1.21.1-0.18.1-beta.jar",
+      "title": "Radical Cobblemon Trainers",
+      "url": "https://cdn.modrinth.com/data/lRwTUnD7/versions/gQx1F1dx/rctmod-fabric-1.21.1-0.18.1-beta.jar",
+      "sha1": "00bf82e254bddb804529222567e5719310524085",
+      "size": 6757956,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "lRwTUnD7"
+    },
+    {
+      "fileName": "rctapi-fabric-1.21.1-0.15.2-beta.jar",
+      "title": "Radical Cobblemon Trainers API",
+      "url": "https://cdn.modrinth.com/data/CBfM2yw7/versions/9OZx0coL/rctapi-fabric-1.21.1-0.15.2-beta.jar",
+      "sha1": "a75bb662e507c3932304d80ed514ec57e5dbf69b",
+      "size": 234250,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "CBfM2yw7"
+    },
+    {
+      "fileName": "PatPat-1.3.0+1.21.1+fabric.jar",
+      "title": "PatPat",
+      "url": "https://cdn.modrinth.com/data/dw7LChq9/versions/g2XRvKfK/PatPat-1.3.0%2B1.21.1%2Bfabric.jar",
+      "sha1": "e48024c1e6d578bc109c2cb969e332a5eeee3a3d",
+      "size": 1234599,
+      "side": "both",
+      "source": "modrinth",
+      "projectId": "dw7LChq9"
     }
   ],
   "skins": [],
   "files": [],
-  "updatedAt": "2026-09-28T21:48:16Z",
+  "updatedAt": "2026-09-28T22:29:07Z",
   "id": "tikitikipower-2-0-1554",
   "host": "heterofemboy67",
   "createdAt": "2026-09-28T21:29:35Z",
