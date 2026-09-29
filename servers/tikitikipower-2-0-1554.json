@@ -572,11 +572,10 @@
   ],
   "skins": [],
   "files": [],
-  "updatedAt": "2026-09-29T17:22:55Z",
+  "updatedAt": "2026-09-29T19:24:20Z",
   "id": "tikitikipower-2-0-1554",
   "host": "heterofemboy67",
   "createdAt": "2026-09-28T21:29:35Z",
   "port": 25565,
-  "mode": "pc",
-  "codeHash": "8b7206a9e3ab9f00f8db1e778b409f8832f627788c660bc9db120ce0518228c1"
+  "mode": "pc"
 }
