@@ -3,492 +3,1780 @@
   "serverAddress": "carolyn-doubled.tun.ply.gg",
   "serverIcon": "server/icon.png",
   "serverIconSha1": "12af38e29560b244203857f07b13fafb8eee7a74",
-  "minecraftVersion": "1.20.1",
+  "minecraftVersion": "1.21.1",
   "loader": {
-    "type": "forge",
-    "version": "47.4.10"
+    "type": "fabric",
+    "version": "0.19.5"
   },
-  "optifine": true,
+  "optifine": false,
   "mods": [
     {
-      "fileName": "artifacts-forge-9.5.19.jar",
-      "url": "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/lrLPBSzq/artifacts-forge-9.5.19.jar",
-      "sha1": "91ab6fc2cc208550f7fc37c43e42eba81eff318e",
-      "size": 850974,
+      "fileName": "CobbleFurnies-fabric-1.2.jar",
+      "url": "https://cdn.modrinth.com/data/AXY1OO9m/versions/54k31lEX/CobbleFurnies-fabric-1.2.jar",
+      "sha1": "a71f20907c3350680a11054584cf96963f5875e5",
+      "size": 2337235,
       "side": "both",
       "source": "modrinth",
-      "title": "Artifacts",
-      "projectId": "P0Mu4wcQ"
+      "title": "CobbleFurnies",
+      "projectId": "AXY1OO9m"
     },
     {
-      "fileName": "Cobblemon-forge-1.5.2+1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/vm5zUZAg/Cobblemon-forge-1.5.2%2B1.20.1.jar",
-      "sha1": "02601f79f0c442b75463538da7a3c7f260fda42e",
-      "size": 104105045,
+      "fileName": "pokeblocks-1.4.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/hnOfcjSq/versions/AMYJbQsk/pokeblocks-1.4.0-1.21.1.jar",
+      "sha1": "74a6bb7102596b326d07f64281ee80aca0eedaa6",
+      "size": 1606467,
+      "side": "both",
+      "source": "modrinth",
+      "title": "pokeblocks",
+      "projectId": "hnOfcjSq"
+    },
+    {
+      "fileName": "highlight-fabric-1.21-3.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/Vz96hXMh/versions/O0nda3pt/highlight-fabric-1.21-3.0.0.jar",
+      "sha1": "68c9d99f271cd8ef8421358369d2d663dd7074fe",
+      "size": 457352,
+      "side": "client",
+      "source": "modrinth",
+      "title": "highlight",
+      "projectId": "Vz96hXMh"
+    },
+    {
+      "fileName": "configurable-3.5.2+1.21.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/lGffrQ3O/versions/4IO3KqeL/configurable-3.5.2%2B1.21.1-fabric.jar",
+      "sha1": "2c7302944b3dbdb7a20ebdba8425ccae52f7f46a",
+      "size": 545247,
+      "side": "both",
+      "source": "modrinth",
+      "title": "configurable",
+      "projectId": "lGffrQ3O"
+    },
+    {
+      "fileName": "forgivingvoid-fabric-1.21.1-21.1.7.jar",
+      "url": "https://cdn.modrinth.com/data/1vkzEZjE/versions/HGbKoEgt/forgivingvoid-fabric-1.21.1-21.1.7.jar",
+      "sha1": "be9be65f0b23bc751f0768af9c921a1483a06aa9",
+      "size": 78531,
+      "side": "both",
+      "source": "modrinth",
+      "title": "forgivingvoid",
+      "projectId": "1vkzEZjE"
+    },
+    {
+      "fileName": "krypton-0.2.8.jar",
+      "url": "https://cdn.modrinth.com/data/fQEb0iXm/versions/Acz3ttTp/krypton-0.2.8.jar",
+      "sha1": "73e792eb5f120787becda4b87b6ff18b26caea50",
+      "size": 161045,
+      "side": "both",
+      "source": "modrinth",
+      "title": "krypton",
+      "projectId": "fQEb0iXm"
+    },
+    {
+      "fileName": "BetterF1-Fabric-1.1+1.21.7.jar",
+      "url": "https://cdn.modrinth.com/data/2JIeCmxb/versions/S81P3LsG/BetterF1-Fabric-1.1%2B1.21.7.jar",
+      "sha1": "218c3aa2ae3356309997deae0861133e9f861581",
+      "size": 22834,
+      "side": "client",
+      "source": "modrinth",
+      "title": "BetterF1",
+      "projectId": "2JIeCmxb"
+    },
+    {
+      "fileName": "cobblemon-additions-4.1.6.jar",
+      "url": "https://cdn.modrinth.com/data/W2pr9jyL/versions/degN5DK4/cobblemon-additions-4.1.6.jar",
+      "sha1": "293c0fd6354114cd45d2dd8e4e771d48b1d89200",
+      "size": 1961229,
+      "side": "both",
+      "source": "modrinth",
+      "title": "cobblemon additions",
+      "projectId": "W2pr9jyL"
+    },
+    {
+      "fileName": "soundsbegone-fabric-1.5.2+mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/FOIvwGKz/versions/N0GVB9DV/soundsbegone-fabric-1.5.2%2Bmc1.21.jar",
+      "sha1": "3ef45517426b434a2ef6092559c494a67ee1aff9",
+      "size": 6151935,
+      "side": "client",
+      "source": "modrinth",
+      "title": "soundsbegone",
+      "projectId": "FOIvwGKz"
+    },
+    {
+      "fileName": "Ping-Wheel-1.12.2-fabric-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/QQXAdCzh/versions/S05ir9dj/Ping-Wheel-1.12.2-fabric-1.21.1.jar",
+      "sha1": "647c326ed26a8d085e75b04d3fbc9846cf974799",
+      "size": 152703,
+      "side": "both",
+      "source": "modrinth",
+      "title": "Ping Wheel",
+      "projectId": "QQXAdCzh"
+    },
+    {
+      "fileName": "customsplashscreen-2.2.0.jar",
+      "url": "https://cdn.modrinth.com/data/BwFQLeCh/versions/OIFSv9om/customsplashscreen-2.2.0.jar",
+      "sha1": "bb79f8974e619e077d60a6bdffe389913b84defd",
+      "size": 660554,
+      "side": "client",
+      "source": "modrinth",
+      "title": "customsplashscreen",
+      "projectId": "BwFQLeCh"
+    },
+    {
+      "fileName": "BetterF3-11.0.3-Fabric-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/8shC1gFX/versions/phATjGhF/BetterF3-11.0.3-Fabric-1.21.1.jar",
+      "sha1": "22442f5594bd537ab603cb36fba70363ebb7992a",
+      "size": 1810710,
+      "side": "client",
+      "source": "modrinth",
+      "title": "BetterF3",
+      "projectId": "8shC1gFX"
+    },
+    {
+      "fileName": "beautify-2.0.0+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/DhSSvaxs/versions/ZyaUkJxq/beautify-2.0.0%2B1.21.1.jar",
+      "sha1": "7b22fbf4997200c8f210a016f7af36309f52a1e1",
+      "size": 837607,
+      "side": "both",
+      "source": "modrinth",
+      "title": "beautify",
+      "projectId": "DhSSvaxs"
+    },
+    {
+      "fileName": "globalpacks-fabric-1.21.1-21.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/NRLPy2mk/versions/ErTctr3A/globalpacks-fabric-1.21.1-21.0.6.jar",
+      "sha1": "6a0c4ccf2a8bc916173defc3c49c8e95285e66b9",
+      "size": 394707,
+      "side": "both",
+      "source": "modrinth",
+      "title": "globalpacks",
+      "projectId": "NRLPy2mk"
+    },
+    {
+      "fileName": "rctapi-fabric-1.21.1-0.15.2-beta.jar",
+      "url": "https://cdn.modrinth.com/data/CBfM2yw7/versions/9OZx0coL/rctapi-fabric-1.21.1-0.15.2-beta.jar",
+      "sha1": "a75bb662e507c3932304d80ed514ec57e5dbf69b",
+      "size": 234250,
+      "side": "both",
+      "source": "modrinth",
+      "title": "rctapi",
+      "projectId": "CBfM2yw7"
+    },
+    {
+      "fileName": "paginatedadvancements-2.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/pJogNFap/versions/fQnpir9a/paginatedadvancements-2.5.1.jar",
+      "sha1": "23a4570fb52d62135d705156079e52ddfe980b94",
+      "size": 71859,
+      "side": "client",
+      "source": "modrinth",
+      "title": "paginatedadvancements",
+      "projectId": "pJogNFap"
+    },
+    {
+      "fileName": "RoughlyEnoughItems-16.0.799-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/nfn13YXA/versions/aWzTESNC/RoughlyEnoughItems-16.0.799-fabric.jar",
+      "sha1": "ea0efe8b13a52e9d8d5a18d062810117a7efec0f",
+      "size": 2451799,
+      "side": "both",
+      "source": "modrinth",
+      "title": "RoughlyEnoughItems",
+      "projectId": "nfn13YXA"
+    },
+    {
+      "fileName": "ferritecore-7.0.3-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/uXXizFIs/versions/sOzRw3CG/ferritecore-7.0.3-fabric.jar",
+      "sha1": "a8a6a34fcda177da2828cedef44e0e538cf78aad",
+      "size": 123450,
+      "side": "both",
+      "source": "modrinth",
+      "title": "ferritecore",
+      "projectId": "uXXizFIs"
+    },
+    {
+      "fileName": "cobblecuisine-2.0.1-1.7.rc1.jar",
+      "url": "https://cdn.modrinth.com/data/dlx62Wp3/versions/KQwSroDP/cobblecuisine-2.0.1-1.7-rc1.jar",
+      "sha1": "31cf544fe61bb9c21fa8dafe5c03a428049a0f37",
+      "size": 683115,
+      "side": "both",
+      "source": "modrinth",
+      "title": "cobblecuisine",
+      "projectId": "dlx62Wp3"
+    },
+    {
+      "fileName": "lenientdeath-1.2.5+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Bfi1KBJV/versions/FUbtsgt9/lenientdeath-1.2.5%2B1.21.1.jar",
+      "sha1": "cca7eb614db1053e9b8f8f413bc7bc82edcd472a",
+      "size": 920915,
+      "side": "both",
+      "source": "modrinth",
+      "title": "lenientdeath",
+      "projectId": "Bfi1KBJV"
+    },
+    {
+      "fileName": "ResourcePackOverrides-v21.1.0-1.21.1-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/YsFycamt/versions/MIxxajqC/ResourcePackOverrides-v21.1.0-1.21.1-Fabric.jar",
+      "sha1": "ea53b83821e3a584159d0bca490e2460e27c616d",
+      "size": 80827,
+      "side": "client",
+      "source": "modrinth",
+      "title": "ResourcePackOverrides",
+      "projectId": "YsFycamt"
+    },
+    {
+      "fileName": "notenoughanimations-fabric-1.12.4-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/MPCX6s5C/versions/HyecdWuC/notenoughanimations-fabric-1.12.4-mc1.21.1.jar",
+      "sha1": "96c0939713956165b31bb65d8416770a21ea52ef",
+      "size": 1948132,
+      "side": "client",
+      "source": "modrinth",
+      "title": "notenoughanimations",
+      "projectId": "MPCX6s5C"
+    },
+    {
+      "fileName": "ScalableLux-0.1.0.1+fabric.d0d58ab-all.jar",
+      "url": "https://cdn.modrinth.com/data/Ps1zyz6x/versions/Yx1tgJMI/ScalableLux-0.1.0.1%2Bfabric.d0d58ab-all.jar",
+      "sha1": "2ce889d9b1b210eef005ea03c3bbb39289c26e3f",
+      "size": 177266,
+      "side": "both",
+      "source": "modrinth",
+      "title": "ScalableLux",
+      "projectId": "Ps1zyz6x"
+    },
+    {
+      "fileName": "fzzy_config-0.7.6+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/hYykXjDp/versions/kOmySYD4/fzzy_config-0.7.6%2B1.21.jar",
+      "sha1": "cff21f254e911a323fe49015d12e548d3e3b8d7c",
+      "size": 2365335,
+      "side": "both",
+      "source": "modrinth",
+      "title": "fzzy config",
+      "projectId": "hYykXjDp"
+    },
+    {
+      "fileName": "netherportalfix-fabric-1.21.1-21.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/nPZr02ET/versions/9KrnphgC/netherportalfix-fabric-1.21.1-21.1.3.jar",
+      "sha1": "970677295778926b09c3539b38e884854bc4d3c7",
+      "size": 213294,
+      "side": "both",
+      "source": "modrinth",
+      "title": "netherportalfix",
+      "projectId": "nPZr02ET"
+    },
+    {
+      "fileName": "StackDeobfuscatorFabric-1.4.3+08e71cc.jar",
+      "url": "https://cdn.modrinth.com/data/NusMqsjF/versions/pyiVLk9R/StackDeobfuscatorFabric-1.4.3%2B08e71cc.jar",
+      "sha1": "c36982af69e6d9d9dbac52e4d6c43e8a64fc6163",
+      "size": 321213,
+      "side": "both",
+      "source": "modrinth",
+      "title": "StackDeobfuscatorFabric",
+      "projectId": "NusMqsjF"
+    },
+    {
+      "fileName": "playerxp-fabric-1.0.9+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/zlrbPCvu/versions/f6114Tas/playerxp-fabric-1.0.9%2B1.21.1.jar",
+      "sha1": "34804e9a9d39dc741dbf4952ddab0223e92820cd",
+      "size": 10818,
+      "side": "both",
+      "source": "modrinth",
+      "title": "playerxp",
+      "projectId": "zlrbPCvu"
+    },
+    {
+      "fileName": "owo-lib-0.12.15.4+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/ccKDOlHs/versions/JB1fLQnc/owo-lib-0.12.15.4%2B1.21.jar",
+      "sha1": "45725e6d33b624e565a7a6e5d3627af40814288d",
+      "size": 1183559,
+      "side": "both",
+      "source": "modrinth",
+      "title": "owo lib",
+      "projectId": "ccKDOlHs"
+    },
+    {
+      "fileName": "zfastnoise-1.0.13+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/OnlVIpq5/versions/tss0FueO/zfastnoise-1.0.13%2B1.21.jar",
+      "sha1": "9cd00c39b86e81e9ed11ce8148739bc3889c7c60",
+      "size": 38857,
+      "side": "both",
+      "source": "modrinth",
+      "title": "zfastnoise",
+      "projectId": "OnlVIpq5"
+    },
+    {
+      "fileName": "SafePastures-1.1.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/qpe01spE/versions/ahfbSTCi/SafePastures-1.1.1%2B1.21.1.jar",
+      "sha1": "da4ca736f1390553380dd1f8b596f17d35fafded",
+      "size": 16518,
+      "side": "both",
+      "source": "modrinth",
+      "title": "SafePastures",
+      "projectId": "qpe01spE"
+    },
+    {
+      "fileName": "advancementdisable-fabric-1.0.1+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/XIsVTmcm/versions/Txi9EkP3/advancementdisable-fabric-1.0.1%2B1.21.jar",
+      "sha1": "32190447e74e705c799641d4a7392b396df63962",
+      "size": 430411,
+      "side": "both",
+      "source": "modrinth",
+      "title": "advancementdisable",
+      "projectId": "XIsVTmcm"
+    },
+    {
+      "fileName": "melody_fabric_1.0.10_MC_1.21.jar",
+      "url": "https://cdn.modrinth.com/data/CVT4pFB2/versions/OqxSeb4n/melody_fabric_1.0.10_MC_1.21.jar",
+      "sha1": "5624eea73f251c70a9489192d326f9b4aab3b13c",
+      "size": 188035,
+      "side": "both",
+      "source": "modrinth",
+      "title": "melody",
+      "projectId": "CVT4pFB2"
+    },
+    {
+      "fileName": "AdvancementPlaques-1.21.1-fabric-1.6.8.jar",
+      "url": "https://cdn.modrinth.com/data/9NM0dXub/versions/g0SNjiMq/AdvancementPlaques-1.21.1-fabric-1.6.8.jar",
+      "sha1": "e3a5a514bbcc18e2c4e3bc251eb9f48e64217405",
+      "size": 195505,
+      "side": "client",
+      "source": "modrinth",
+      "title": "AdvancementPlaques",
+      "projectId": "9NM0dXub"
+    },
+    {
+      "fileName": "zamega-fabric-1.7.3.jar",
+      "url": "https://cdn.modrinth.com/data/2V1Y86sc/versions/x5u68zHH/zamega-fabric-1.7.3.jar",
+      "sha1": "cefe9c25fc69f5c5da95a89225f7740377b3e58c",
+      "size": 2387420,
+      "side": "both",
+      "source": "modrinth",
+      "title": "zamega",
+      "projectId": "2V1Y86sc"
+    },
+    {
+      "fileName": "sophisticatedstorage-1.21.1-1.3.7.9.139.jar",
+      "url": "https://cdn.modrinth.com/data/iHtpVwJL/versions/kjNlOByJ/sophisticatedstorage-1.21.1-1.3.7.9.139.jar",
+      "sha1": "328dcb51c60f7e6cf19c40874dc67335fd44b9f7",
+      "size": 1670672,
+      "side": "both",
+      "source": "modrinth",
+      "title": "sophisticatedstorage",
+      "projectId": "iHtpVwJL"
+    },
+    {
+      "fileName": "MouseTweaks-fabric-mc1.21-2.26.jar",
+      "url": "https://cdn.modrinth.com/data/aC3cM3Vq/versions/ylmBQ38A/MouseTweaks-fabric-mc1.21-2.26.jar",
+      "sha1": "ee81af33a5606ef2cd057e075833d7c69836c210",
+      "size": 75984,
+      "side": "client",
+      "source": "modrinth",
+      "title": "MouseTweaks",
+      "projectId": "aC3cM3Vq"
+    },
+    {
+      "fileName": "reeses-sodium-options-fabric-2.2.3+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Bh37bMuy/versions/jDOK2MQs/reeses-sodium-options-fabric-2.2.3%2Bmc1.21.1.jar",
+      "sha1": "aca62b29c1b2a9ec73f321aceeeceaeaaec53744",
+      "size": 259211,
+      "side": "client",
+      "source": "modrinth",
+      "title": "reeses sodium options",
+      "projectId": "Bh37bMuy"
+    },
+    {
+      "fileName": "sophisticatedcore-1.21.1-1.2.9.21.168.jar",
+      "url": "https://cdn.modrinth.com/data/9jxwkYQL/versions/ZLVrtF0Q/sophisticatedcore-1.21.1-1.2.9.21.168.jar",
+      "sha1": "43a95dfa338a2a6ba3ea33a5efa0ac040331e50c",
+      "size": 2996065,
+      "side": "both",
+      "source": "modrinth",
+      "title": "sophisticatedcore",
+      "projectId": "9jxwkYQL"
+    },
+    {
+      "fileName": "sodium-fabric-0.8.12+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/AANobbMI/versions/KIRFiWG4/sodium-fabric-0.8.12%2Bmc1.21.1.jar",
+      "sha1": "70381d969eb63c0aa09dc581ef4b9a79782c0123",
+      "size": 1573180,
+      "side": "client",
+      "source": "modrinth",
+      "title": "sodium",
+      "projectId": "AANobbMI"
+    },
+    {
+      "fileName": "defaultoptions-fabric-1.21.1-21.1.7.jar",
+      "url": "https://cdn.modrinth.com/data/WEg59z5b/versions/xaqHFEAN/defaultoptions-fabric-1.21.1-21.1.7.jar",
+      "sha1": "1eed10a37b1f4a45f51e76044beb44e23b6bd678",
+      "size": 105044,
+      "side": "client",
+      "source": "modrinth",
+      "title": "defaultoptions",
+      "projectId": "WEg59z5b"
+    },
+    {
+      "fileName": "catchrate-display-fabric-2.8.22.jar",
+      "url": "https://cdn.modrinth.com/data/vADO40xp/versions/4MuGKLQg/catchrate-display-fabric-2.8.22.jar",
+      "sha1": "ad63e64fa2121c4a19f3ac72a9cd84313ac8390c",
+      "size": 260470,
+      "side": "client",
+      "source": "modrinth",
+      "title": "catchrate display",
+      "projectId": "vADO40xp"
+    },
+    {
+      "fileName": "capturexp-fabric-1.7.3-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/LBl4Qguc/versions/hjQp9Aq3/capturexp-fabric-1.7.3-1.3.0.jar",
+      "sha1": "fe935920b30c7cce657c2fa5e4dd27f36ea640cf",
+      "size": 22848,
+      "side": "both",
+      "source": "modrinth",
+      "title": "capturexp",
+      "projectId": "LBl4Qguc"
+    },
+    {
+      "fileName": "particle_core-0.3.3+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/RSeLon5O/versions/mau4pnKr/particle_core-0.3.3%2B1.21.jar",
+      "sha1": "21134697c26b73cde41d1575c725ab30736d6b17",
+      "size": 147812,
+      "side": "client",
+      "source": "modrinth",
+      "title": "particle core",
+      "projectId": "RSeLon5O"
+    },
+    {
+      "fileName": "accessories-fabric-1.1.0-beta.53+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/jtmvUHXj/versions/Xlt4eWBe/accessories-fabric-1.1.0-beta.53%2B1.21.1.jar",
+      "sha1": "fa0b11de088893bb14aff945d0e8efdee165457b",
+      "size": 1095802,
+      "side": "both",
+      "source": "modrinth",
+      "title": "accessories",
+      "projectId": "jtmvUHXj"
+    },
+    {
+      "fileName": "Only Bottle Caps-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/tDRRddpZ/versions/9QilYtN2/Only%20Bottle%20Caps-1.3.0.jar",
+      "sha1": "23ef87de0db4ec6914b67ad96d72c204874dc613",
+      "size": 250451,
+      "side": "both",
+      "source": "modrinth",
+      "title": "Only Bottle Caps",
+      "projectId": "tDRRddpZ"
+    },
+    {
+      "fileName": "trinkets-3.10.0.jar",
+      "url": "https://cdn.modrinth.com/data/5aaWibi9/versions/JagCscwi/trinkets-3.10.0.jar",
+      "sha1": "f54756f938c7c273713b9f97d4a987eec551e892",
+      "size": 272944,
+      "side": "both",
+      "source": "modrinth",
+      "title": "trinkets",
+      "projectId": "5aaWibi9"
+    },
+    {
+      "fileName": "respackopts-4.14.0+1.21.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/TiF5QWZY/versions/y5eBSMkZ/respackopts-4.14.0%2B1.21.1.4.jar",
+      "sha1": "f32957a737d953a0422d4aaa5111ed1c1fe4a2ba",
+      "size": 557358,
+      "side": "both",
+      "source": "modrinth",
+      "title": "respackopts",
+      "projectId": "TiF5QWZY"
+    },
+    {
+      "fileName": "ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/ohNO6lps/versions/N5qzq0XV/ForgeConfigAPIPort-v21.1.6-1.21.1-Fabric.jar",
+      "sha1": "18bf1f21cd2db6dcd4e42db85eae54e2a49a48ee",
+      "size": 633065,
+      "side": "both",
+      "source": "modrinth",
+      "title": "ForgeConfigAPIPort",
+      "projectId": "ohNO6lps"
+    },
+    {
+      "fileName": "ImmediatelyFast-Fabric-1.6.11+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/5ZwdcRci/versions/ATB4eNEP/ImmediatelyFast-Fabric-1.6.11%2B1.21.1.jar",
+      "sha1": "e4e125088d8654f91562e78a00bdec22f74bc07f",
+      "size": 336763,
+      "side": "client",
+      "source": "modrinth",
+      "title": "ImmediatelyFast",
+      "projectId": "5ZwdcRci"
+    },
+    {
+      "fileName": "sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
+      "url": "https://cdn.modrinth.com/data/qyVF9oeo/versions/tVu2EZ4u/sound-physics-remastered-fabric-1.21.1-1.5.1.jar",
+      "sha1": "07d9f758338ad5be38b7fa1eb32c71a7c4840ea0",
+      "size": 205671,
+      "side": "both",
+      "source": "modrinth",
+      "title": "sound physics remastered",
+      "projectId": "qyVF9oeo"
+    },
+    {
+      "fileName": "cobblemonraiddens-fabric-0.11.3+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/GebWh45l/versions/Lecb595b/cobblemonraiddens-fabric-0.11.3%2B1.21.1.jar",
+      "sha1": "d3a3c5634ae9821259be71dfccfd2b40d8df5410",
+      "size": 2690197,
+      "side": "both",
+      "source": "modrinth",
+      "title": "cobblemonraiddens",
+      "projectId": "GebWh45l"
+    },
+    {
+      "fileName": "fancymenu_fabric_3.9.8_MC_1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Wq5SjeWM/versions/d8MLo3sY/fancymenu_fabric_3.9.8_MC_1.21.1.jar",
+      "sha1": "72cf81b069075a39996d4b2360ffca3299ab539e",
+      "size": 25757227,
+      "side": "both",
+      "source": "modrinth",
+      "title": "fancymenu",
+      "projectId": "Wq5SjeWM"
+    },
+    {
+      "fileName": "handcrafted-fabric-1.21.1-4.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/pJmCFF0p/versions/f0pKpUWd/handcrafted-fabric-1.21.1-4.0.3.jar",
+      "sha1": "a9579fecd7ed429c282be21d5c921d220197acc6",
+      "size": 7127377,
+      "side": "both",
+      "source": "modrinth",
+      "title": "handcrafted",
+      "projectId": "pJmCFF0p"
+    },
+    {
+      "fileName": "Cobblemon-fabric-1.7.3+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/kF7CvxTo/Cobblemon-fabric-1.7.3%2B1.21.1.jar",
+      "sha1": "f192cda3fdfec0f20d1dee1887ec1b9e77b1618c",
+      "size": 135801550,
       "side": "both",
       "source": "modrinth",
       "title": "Cobblemon",
       "projectId": "MdwFAVRL"
     },
     {
-      "fileName": "ironchest-1.20.1-14.4.4.jar",
-      "url": "https://cdn.modrinth.com/data/P3iIrPH3/versions/YjbOtYwN/ironchest-1.20.1-14.4.4.jar",
-      "sha1": "4b2dd0f581e40f8bd6f6e63b2d84c06dfde2c4eb",
-      "size": 311290,
+      "fileName": "neruina-3.3.3+1.21.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/1s5x833P/versions/S3RKG9zF/neruina-3.3.3%2B1.21.1-fabric.jar",
+      "sha1": "33cfda42d642db4854c3617b75f511669ff43d6b",
+      "size": 860092,
       "side": "both",
       "source": "modrinth",
-      "title": "Iron Chests",
-      "projectId": "P3iIrPH3"
+      "title": "neruina",
+      "projectId": "1s5x833P"
     },
     {
-      "fileName": "sophisticatedbackpacks-1.20.1-3.26.3.2157.jar",
-      "url": "https://cdn.modrinth.com/data/TyCTlI4b/versions/XxOZuQnU/sophisticatedbackpacks-1.20.1-3.26.3.2157.jar",
-      "sha1": "efc831296f60a59792af142534d1c6dd1dff7f3f",
-      "size": 1223451,
-      "side": "both",
-      "source": "modrinth",
-      "title": "Sophisticated Backpacks",
-      "projectId": "TyCTlI4b"
-    },
-    {
-      "fileName": "EasyAnvils-v8.0.2-1.20.1-Forge.jar",
-      "url": "https://cdn.modrinth.com/data/OZBR5JT5/versions/4pRdDqEb/EasyAnvils-v8.0.2-1.20.1-Forge.jar",
-      "sha1": "d44a8b549b27713a92d59148729bf374ff3e25f0",
-      "size": 141744,
-      "side": "both",
-      "source": "modrinth",
-      "title": "Easy Anvils",
-      "projectId": "OZBR5JT5"
-    },
-    {
-      "fileName": "EasyMagic-v8.0.1-1.20.1-Forge.jar",
-      "url": "https://cdn.modrinth.com/data/9hx3AbJM/versions/W2xPEG9I/EasyMagic-v8.0.1-1.20.1-Forge.jar",
-      "sha1": "9bfb5d63ac2e03ecdab8755c968ffa25b799469b",
-      "size": 115947,
-      "side": "both",
-      "source": "modrinth",
-      "title": "Easy Magic",
-      "projectId": "9hx3AbJM"
-    },
-    {
-      "fileName": "eatinganimation-1.20.1-5.1.0.jar",
-      "url": "https://cdn.modrinth.com/data/X8CISwXp/versions/WqBpsYBv/eatinganimation-1.20.1-5.1.0.jar",
-      "sha1": "d80502ca23195814f245bb8a4bffcb778ea4c02a",
-      "size": 294792,
+      "fileName": "iris-fabric-1.8.14-beta.1+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/YL57xq9U/versions/bAo1Qhte/iris-fabric-1.8.14-beta.1%2Bmc1.21.1.jar",
+      "sha1": "6776c0340845887477bfa463acc736ce7fcb6de5",
+      "size": 2791343,
       "side": "client",
       "source": "modrinth",
-      "title": "Eating Animations",
-      "projectId": "X8CISwXp"
+      "title": "iris",
+      "projectId": "YL57xq9U"
     },
     {
-      "fileName": "notenoughanimations-forge-1.12.6-mc1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/MPCX6s5C/versions/kGjMleOz/notenoughanimations-forge-1.12.6-mc1.20.1.jar",
-      "sha1": "993252c9946e22aa4ba0b28cb5b81183d5bcf50d",
-      "size": 1870649,
+      "fileName": "moar-concrete-1.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/lXDzrLAm/versions/hG50ZysI/moar-concrete-1.3.1.jar",
+      "sha1": "541410660ff1198e24b99e007267a7ec256498e2",
+      "size": 777538,
+      "side": "both",
+      "source": "modrinth",
+      "title": "moar concrete",
+      "projectId": "lXDzrLAm"
+    },
+    {
+      "fileName": "LumyREI-1.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/FVADf9wU/versions/PnYguaC2/LumyREI-1.1.3.jar",
+      "sha1": "072739522438162a2d30f120a0415b5def96cd4b",
+      "size": 66283,
       "side": "client",
       "source": "modrinth",
-      "title": "Not Enough Animations",
-      "projectId": "MPCX6s5C"
+      "title": "LumyREI",
+      "projectId": "FVADf9wU"
     },
     {
-      "fileName": "BetterThirdPerson-Forge-1.20-1.9.0.jar",
-      "url": "https://cdn.modrinth.com/data/G1s2WpNo/versions/XkYduFuv/BetterThirdPerson-Forge-1.20-1.9.0.jar",
-      "sha1": "0b0a3ff3b244fa191b3f9580547071dee46f7276",
-      "size": 61525,
+      "fileName": "supermartijn642corelib-1.1.21-fabric-mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/rOUBggPv/versions/blDCgrqh/supermartijn642corelib-1.1.21-fabric-mc1.21.jar",
+      "sha1": "0091085edb9435f6eefc2ff562fcc8cffbc05981",
+      "size": 616830,
+      "side": "both",
+      "source": "modrinth",
+      "title": "supermartijn642corelib",
+      "projectId": "rOUBggPv"
+    },
+    {
+      "fileName": "nethermap-4.0.0-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/fdtm99de/versions/BEfm3cNd/nethermap-4.0.0-1.21.1.jar",
+      "sha1": "4a4849b36757a268253a3a87b4a02b60f59816a6",
+      "size": 21464,
+      "side": "both",
+      "source": "modrinth",
+      "title": "nethermap",
+      "projectId": "fdtm99de"
+    },
+    {
+      "fileName": "better-pokedex-scanner-1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/lESGhLxI/versions/fvFI487Y/better-pokedex-scanner-1.0.0.jar",
+      "sha1": "cfb76dc69acbe4ec18a7f59b0911c7399afd671e",
+      "size": 350293,
+      "side": "both",
+      "source": "modrinth",
+      "title": "better pokedex scanner",
+      "projectId": "lESGhLxI"
+    },
+    {
+      "fileName": "fightorflight-fabric-0.10.9.jar",
+      "url": "https://cdn.modrinth.com/data/cTdIg5HZ/versions/aLKGVSng/fightorflight-fabric-0.10.9.jar",
+      "sha1": "9928e06e1ebe166980480b073cea542eed753d73",
+      "size": 1424525,
+      "side": "both",
+      "source": "modrinth",
+      "title": "fightorflight",
+      "projectId": "cTdIg5HZ"
+    },
+    {
+      "fileName": "Debugify-1.21.1+1.0.jar",
+      "url": "https://cdn.modrinth.com/data/QwxR6Gcd/versions/dO7QNiof/Debugify-1.21.1%2B1.0.jar",
+      "sha1": "6fb7d4ec9c2d2dc5b58577324b47671d3e28d7a4",
+      "size": 292202,
+      "side": "both",
+      "source": "modrinth",
+      "title": "Debugify",
+      "projectId": "QwxR6Gcd"
+    },
+    {
+      "fileName": "continuity-3.0.0+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/1IjD5062/versions/kSPJ4hQv/continuity-3.0.0%2B1.21.jar",
+      "sha1": "c7f09b53512604c2ba6803b1247bc70e4d0f8f8c",
+      "size": 1014044,
       "side": "client",
       "source": "modrinth",
-      "title": "Better Third Person",
-      "projectId": "G1s2WpNo"
+      "title": "continuity",
+      "projectId": "1IjD5062"
     },
     {
-      "fileName": "cavedust-2.0.4-1.20.1-forge.jar",
-      "url": "https://cdn.modrinth.com/data/jawg7zT1/versions/inDklMG3/cavedust-2.0.4-1.20.1-forge.jar",
-      "sha1": "c18fba965e5dab309de5adf9e8fd7ee3253be7e9",
-      "size": 32512,
+      "fileName": "toms_storage_fabric-1.21-2.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/XZNI4Cpy/versions/GwLz79tK/toms_storage_fabric-1.21-2.3.0.jar",
+      "sha1": "3f851ab4ba33b0efca0a03f3aa92a266415f5a87",
+      "size": 1962781,
+      "side": "both",
+      "source": "modrinth",
+      "title": "toms storage",
+      "projectId": "XZNI4Cpy"
+    },
+    {
+      "fileName": "tmcraft-1.4.18+1.7.3.jar",
+      "url": "https://cdn.modrinth.com/data/HU6mkUZs/versions/RYBI5bnM/tmcraft-1.4.18%2B1.7.3.jar",
+      "sha1": "f423155efb2a99370fe838a6603c5f33c947946e",
+      "size": 3360417,
+      "side": "both",
+      "source": "modrinth",
+      "title": "tmcraft",
+      "projectId": "HU6mkUZs"
+    },
+    {
+      "fileName": "entity_texture_features_1.21-fabric-7.1.jar",
+      "url": "https://cdn.modrinth.com/data/BVzZfTc1/versions/udcdeUXw/entity_texture_features_1.21-fabric-7.1.jar",
+      "sha1": "2020e3884ada68d7aba1d54f182d32d511c40e5f",
+      "size": 745421,
       "side": "client",
       "source": "modrinth",
-      "title": "Cave Dust",
-      "projectId": "jawg7zT1"
+      "title": "entity texture features",
+      "projectId": "BVzZfTc1"
     },
     {
-      "fileName": "SereneSeasons-forge-1.20.1-9.1.0.3.jar",
-      "url": "https://cdn.modrinth.com/data/e0bNACJD/versions/WMrhrybF/SereneSeasons-forge-1.20.1-9.1.0.3.jar",
-      "sha1": "aaf4fb2289c085f758032dc0537ba40f10f3df89",
-      "size": 160886,
+      "fileName": "Platform-fabric-1.21.1-1.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/i6fiqm5y/versions/BbIdNbF1/Platform-fabric-1.21.1-1.3.3.jar",
+      "sha1": "b3302ad9158171874d01e863d69c8bf4db8faef9",
+      "size": 735744,
       "side": "both",
       "source": "modrinth",
-      "title": "Serene Seasons",
-      "projectId": "e0bNACJD"
+      "title": "Platform",
+      "projectId": "i6fiqm5y"
     },
     {
-      "fileName": "bettervillage-forge-1.20.1-3.3.1-all.jar",
-      "url": "https://cdn.modrinth.com/data/dGVX5JbJ/versions/zvb4Gj0d/bettervillage-forge-1.20.1-3.3.1-all.jar",
-      "sha1": "9b7090217b1eab1fe0e84c50305d9623ad530485",
-      "size": 2612507,
-      "side": "server",
-      "source": "modrinth",
-      "title": "Better Villages",
-      "projectId": "dGVX5JbJ"
-    },
-    {
-      "fileName": "Quark-4.0-462.jar",
-      "url": "https://cdn.modrinth.com/data/qnQsVE2z/versions/DijQLauD/Quark-4.0-462.jar",
-      "sha1": "9b0fb82995622a0070c00827c698c43b49d9d14b",
-      "size": 14935230,
+      "fileName": "timcore-fabric-1.7.3-1.32.0.jar",
+      "url": "https://cdn.modrinth.com/data/lVP9aUaY/versions/g5MKQfLZ/timcore-fabric-1.7.3-1.32.0.jar",
+      "sha1": "3a791c747a4beb4debf691c168f6e6b84efacd15",
+      "size": 304444,
       "side": "both",
       "source": "modrinth",
-      "title": "Quark",
-      "projectId": "qnQsVE2z"
+      "title": "timcore",
+      "projectId": "lVP9aUaY"
     },
     {
-      "fileName": "takesapillage-1.0.3-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/pe7FN3d6/versions/unxodajn/takesapillage-1.0.3-1.20.1.jar",
-      "sha1": "058d29fcadbd5fa1fb6d92e50788329398f9467d",
-      "size": 3758273,
+      "fileName": "fusion-1.2.12-fabric-mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/p19vrgc2/versions/6fQXv7Yl/fusion-1.2.12-fabric-mc1.21.jar",
+      "sha1": "6c5ef883ab46b3e6ab5f53b7c1b0b369162f9110",
+      "size": 515411,
       "side": "both",
       "source": "modrinth",
-      "title": "It Takes a Pillage",
-      "projectId": "pe7FN3d6"
+      "title": "fusion",
+      "projectId": "p19vrgc2"
     },
     {
-      "fileName": "FarmersDelight-1.20.1-1.3.4.jar",
-      "url": "https://cdn.modrinth.com/data/R2OftAxM/versions/SiIpcZzM/FarmersDelight-1.20.1-1.3.4.jar",
-      "sha1": "26f615fd35f652021f5b0f1cba68afa7d578fe15",
-      "size": 3311051,
+      "fileName": "VanillaBackport-fabric-1.21.1-1.1.7.10.jar",
+      "url": "https://cdn.modrinth.com/data/6xwxDTgf/versions/ayvoY8lx/VanillaBackport-fabric-1.21.1-1.1.7.10.jar",
+      "sha1": "be520356ef53352b2d3e6ec84ca3abb7ca62f041",
+      "size": 54994072,
       "side": "both",
       "source": "modrinth",
-      "title": "Farmer's Delight",
-      "projectId": "R2OftAxM"
+      "title": "VanillaBackport",
+      "projectId": "6xwxDTgf"
     },
     {
-      "fileName": "bushierflowers-0.0.3-1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/OK421ZCh/versions/hPR6ZSfe/bushierflowers-0.0.3-1.20.1.jar",
-      "sha1": "f37f505fbb57634a98672ba3efbd1949f3eee309",
-      "size": 319549,
+      "fileName": "cobblenav-fabric-2.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/bI8Nt3uA/versions/cGFERrtC/cobblenav-fabric-2.3.3.jar",
+      "sha1": "63681a16bc562089329533686fcc60e7bb7cd63d",
+      "size": 1090821,
       "side": "both",
       "source": "modrinth",
-      "title": "Bushier Flowers",
-      "projectId": "OK421ZCh"
+      "title": "cobblenav",
+      "projectId": "bI8Nt3uA"
     },
     {
-      "fileName": "VisualWorkbench-v8.0.1-1.20.1-Forge.jar",
-      "url": "https://cdn.modrinth.com/data/kfqD1JRw/versions/qaWEHDC3/VisualWorkbench-v8.0.1-1.20.1-Forge.jar",
-      "sha1": "563804910a7ebb1082c1eedca363b16e2c572459",
-      "size": 82557,
+      "fileName": "huge-structure-blocks-fabric-1.1.6.jar",
+      "url": "https://cdn.modrinth.com/data/AMLtKGdJ/versions/jZrAT0D5/huge-structure-blocks-fabric-1.1.6.jar",
+      "sha1": "e47182aa7c96a04e79eab7db8851f4d7615d3f40",
+      "size": 100230,
       "side": "both",
       "source": "modrinth",
-      "title": "Visual Workbench",
-      "projectId": "kfqD1JRw"
+      "title": "huge structure blocks",
+      "projectId": "AMLtKGdJ"
     },
     {
-      "fileName": "NekosEnchantedBooks-1.19.3-2.0.3.jar",
-      "url": "https://cdn.modrinth.com/data/VZWuyRVr/versions/VpA4roMg/NekosEnchantedBooks-1.19.3-2.0.3.jar",
-      "sha1": "9b7494151519256774e893ca7ac5bffaa17f05b9",
-      "size": 418925,
+      "fileName": "cloth-config-15.0.140-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar",
+      "sha1": "5d82342a2df53fd6df712bfdd583a811572918a4",
+      "size": 1157166,
+      "side": "both",
+      "source": "modrinth",
+      "title": "cloth config",
+      "projectId": "9s6osm5g"
+    },
+    {
+      "fileName": "EuphoriaPatcher-1.9.3-r5.8.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/4H6sumDB/versions/7GNWrkGL/EuphoriaPatcher-1.9.3-r5.8.1-fabric.jar",
+      "sha1": "2a596436fca404cf497c1e9228d6cd9748d1fbf2",
+      "size": 4296552,
       "side": "client",
       "source": "modrinth",
-      "title": "Neko's Enchanted Books",
-      "projectId": "VZWuyRVr"
+      "title": "EuphoriaPatcher",
+      "projectId": "4H6sumDB"
     },
     {
-      "fileName": "AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/fM515JnW/versions/AuLdtrBY/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
-      "sha1": "87ea0cd8ec56763185ee0db09eec7c676969e4da",
-      "size": 53429226,
-      "side": "client",
-      "source": "modrinth",
-      "title": "AmbientSounds",
-      "projectId": "fM515JnW"
-    },
-    {
-      "fileName": "fallingleaves-1.20.1-2.1.2.jar",
-      "url": "https://cdn.modrinth.com/data/2JAUNCL4/versions/j5eND1ZA/fallingleaves-1.20.1-2.1.2.jar",
-      "sha1": "b890536f44a5c0a49f2b1f4af91c17d948b4ef4d",
-      "size": 124212,
-      "side": "client",
-      "source": "modrinth",
-      "title": "Falling Leaves (NeoForge/Forge)",
-      "projectId": "2JAUNCL4"
-    },
-    {
-      "fileName": "moremobvariants-forge+1.20.1-1.3.0.1.jar",
-      "url": "https://cdn.modrinth.com/data/JiEhJ3WG/versions/qtpseir7/moremobvariants-forge%2B1.20.1-1.3.0.1.jar",
-      "sha1": "0fad563c9d66e421b0b0d4541b33d18516446c58",
-      "size": 379988,
+      "fileName": "cobblemon-battle-extras-fabric-1.13.45.jar",
+      "url": "https://cdn.modrinth.com/data/2iY8VFqL/versions/Sf5W9mRS/cobblemon-battle-extras-fabric-1.13.45.jar",
+      "sha1": "8d56d3e943d20f9d22be32e9a9dee5851eb7f654",
+      "size": 1515972,
       "side": "both",
       "source": "modrinth",
-      "title": "More Mob Variants",
-      "projectId": "JiEhJ3WG"
+      "title": "cobblemon battle extras",
+      "projectId": "2iY8VFqL"
     },
     {
-      "fileName": "MoogsVoyagerStructures-universal-1.20-5.1.3.jar",
-      "url": "https://cdn.modrinth.com/data/OQAgZMH1/versions/dMwX4GPR/MoogsVoyagerStructures-universal-1.20-5.1.3.jar",
-      "sha1": "10f6327a8586581bdad42515e527b4abbabbd2d0",
-      "size": 2432788,
-      "side": "server",
+      "fileName": "betterbeds-fabric-1.4.0.jar",
+      "url": "https://cdn.modrinth.com/data/kKwy3HU9/versions/ZPmX9Uy3/betterbeds-fabric-1.4.0.jar",
+      "sha1": "18bc5c4f40ff6e47d65526a59244c9ea57b83e3f",
+      "size": 39918,
+      "side": "client",
       "source": "modrinth",
-      "title": "MVS - Moog's Voyager Structures",
-      "projectId": "OQAgZMH1"
+      "title": "betterbeds",
+      "projectId": "kKwy3HU9"
     },
     {
-      "fileName": "xaerominimap-forge-1.20.1-26.5.0.jar",
-      "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/Juh6inLY/xaerominimap-forge-1.20.1-26.5.0.jar",
-      "sha1": "718a4339f6dad3a56b6e7243e62febfb643b7151",
-      "size": 2195399,
+      "fileName": "CobbleDollars-fabric-2.0.0+Beta-5.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/s7N7AsqL/versions/cqsHXSXe/CobbleDollars-fabric-2.0.0%2BBeta-5.1%2B1.21.1.jar",
+      "sha1": "48a2a30fb22e088ca9357fc95bdb4247ddc80b17",
+      "size": 369528,
       "side": "both",
       "source": "modrinth",
-      "title": "Xaero's Minimap",
+      "title": "CobbleDollars",
+      "projectId": "s7N7AsqL"
+    },
+    {
+      "fileName": "LumyMon-0.6.6.jar",
+      "url": "https://cdn.modrinth.com/data/QAX8WiBc/versions/SSS3twZY/LumyMon-0.6.6.jar",
+      "sha1": "983104ced5cadd78d75a3c512bd68d486e59f82f",
+      "size": 2331858,
+      "side": "both",
+      "source": "modrinth",
+      "title": "LumyMon",
+      "projectId": "QAX8WiBc"
+    },
+    {
+      "fileName": "tooltipfix-1.1.1-1.20.jar",
+      "url": "https://cdn.modrinth.com/data/2RKFTmiB/versions/B2L4LeMV/tooltipfix-1.1.1-1.20.jar",
+      "sha1": "de704792c691e3d19316c87c21c9ad2bee6c66c3",
+      "size": 12432,
+      "side": "client",
+      "source": "modrinth",
+      "title": "tooltipfix",
+      "projectId": "2RKFTmiB"
+    },
+    {
+      "fileName": "athena-fabric-1.21.1-4.0.6.jar",
+      "url": "https://cdn.modrinth.com/data/b1ZV3DIJ/versions/JfyYsWKP/athena-fabric-1.21.1-4.0.6.jar",
+      "sha1": "92534d85cad33ab1fee598068443c685f4bb06e0",
+      "size": 88425,
+      "side": "both",
+      "source": "modrinth",
+      "title": "athena",
+      "projectId": "b1ZV3DIJ"
+    },
+    {
+      "fileName": "biomereplacer-2.1-hippo-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/DAXbR0Wj/versions/IeQCQzcl/biomereplacer-2.1-hippo-fabric.jar",
+      "sha1": "8e3573f3384e7031afa663d7fe3dbbd0011bae9c",
+      "size": 138694,
+      "side": "both",
+      "source": "modrinth",
+      "title": "biomereplacer",
+      "projectId": "DAXbR0Wj"
+    },
+    {
+      "fileName": "infinite-music-0.4.6.jar",
+      "url": "https://cdn.modrinth.com/data/OJLdOa8k/versions/cIfcDLaq/infinite-music-0.4.6.jar",
+      "sha1": "72ac27231cd80aab7ea509da6694c3696dc4c96a",
+      "size": 45913,
+      "side": "client",
+      "source": "modrinth",
+      "title": "infinite music",
+      "projectId": "OJLdOa8k"
+    },
+    {
+      "fileName": "Luckys-Cozyhome-Refurnished-1.1.20.jar",
+      "url": "https://cdn.modrinth.com/data/TNcLBDkY/versions/jJUWZCaQ/Luckys-Cozyhome-Refurnished-1.1.20.jar",
+      "sha1": "e65e20f982be0be2bf5e94101f560049b0463ab3",
+      "size": 3121070,
+      "side": "both",
+      "source": "modrinth",
+      "title": "Luckys Cozyhome Refurnished",
+      "projectId": "TNcLBDkY"
+    },
+    {
+      "fileName": "entity_model_features-3.2.4-1.21-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/4I1XuqiY/versions/NLDNY8vg/entity_model_features-3.2.4-1.21-fabric.jar",
+      "sha1": "4538d0eec804c3a8f8c3a6809f687e362df588cf",
+      "size": 565280,
+      "side": "client",
+      "source": "modrinth",
+      "title": "entity model features",
+      "projectId": "4I1XuqiY"
+    },
+    {
+      "fileName": "sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar",
+      "url": "https://cdn.modrinth.com/data/ouNrBQtq/versions/nHhuPdda/sophisticatedbackpacks-1.21.1-3.23.4.3.106.jar",
+      "sha1": "7f6af600a58863dfcebe5e3d3ce5e2a4bcabcbd3",
+      "size": 988478,
+      "side": "both",
+      "source": "modrinth",
+      "title": "sophisticatedbackpacks",
+      "projectId": "ouNrBQtq"
+    },
+    {
+      "fileName": "libjf-3.17.5.jar",
+      "url": "https://cdn.modrinth.com/data/WKwQAwke/versions/WRFFw4eh/libjf-3.17.5.jar",
+      "sha1": "67c0111a22b4b058e6f08c1e607d8e9605612716",
+      "size": 1282450,
+      "side": "both",
+      "source": "modrinth",
+      "title": "libjf",
+      "projectId": "WKwQAwke"
+    },
+    {
+      "fileName": "xaeroworldmap-fabric-1.21.1-1.44.2.jar",
+      "url": "https://cdn.modrinth.com/data/NcUtCpym/versions/L2nO7ZYD/xaeroworldmap-fabric-1.21.1-1.44.2.jar",
+      "sha1": "9872f1275b6e491bc0a806b6288ae2320261b36a",
+      "size": 1448218,
+      "side": "both",
+      "source": "modrinth",
+      "title": "xaeroworldmap",
+      "projectId": "NcUtCpym"
+    },
+    {
+      "fileName": "supermartijn642configlib-1.1.8-fabric-mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/LN9BxssP/versions/euSlaAtA/supermartijn642configlib-1.1.8-fabric-mc1.21.jar",
+      "sha1": "8427e42f1db8ea7b4b6c21cc94bfcfa398f0ff63",
+      "size": 206993,
+      "side": "both",
+      "source": "modrinth",
+      "title": "supermartijn642configlib",
+      "projectId": "LN9BxssP"
+    },
+    {
+      "fileName": "resourcefullib-fabric-1.21-3.0.12.jar",
+      "url": "https://cdn.modrinth.com/data/G1hIVOrD/versions/Hf91FuVF/resourcefullib-fabric-1.21-3.0.12.jar",
+      "sha1": "cb67e1302b5116953f45556cc61dbcf40d986ecd",
+      "size": 485586,
+      "side": "both",
+      "source": "modrinth",
+      "title": "resourcefullib",
+      "projectId": "G1hIVOrD"
+    },
+    {
+      "fileName": "fabric-api-0.116.14+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/aUrTRV7H/fabric-api-0.116.14%2B1.21.1.jar",
+      "sha1": "1bc9caf399a9eadddaec3215e31594ca40fc9485",
+      "size": 2451978,
+      "side": "both",
+      "source": "modrinth",
+      "title": "fabric api",
+      "projectId": "P7dR8mSH"
+    },
+    {
+      "fileName": "rctmod-fabric-1.21.1-0.18.1-beta.jar",
+      "url": "https://cdn.modrinth.com/data/lRwTUnD7/versions/gQx1F1dx/rctmod-fabric-1.21.1-0.18.1-beta.jar",
+      "sha1": "00bf82e254bddb804529222567e5719310524085",
+      "size": 6757956,
+      "side": "both",
+      "source": "modrinth",
+      "title": "rctmod",
+      "projectId": "lRwTUnD7"
+    },
+    {
+      "fileName": "mega_showdown-fabric-1.8.4+1.7.3+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/SszvX85I/versions/Y6di9Ram/mega_showdown-fabric-1.8.4%2B1.7.3%2B1.21.1.jar",
+      "sha1": "948795e4c112b0719859f0f44bb2e5cdf67d1859",
+      "size": 17213370,
+      "side": "both",
+      "source": "modrinth",
+      "title": "mega showdown",
+      "projectId": "SszvX85I"
+    },
+    {
+      "fileName": "entityculling-fabric-1.10.5-mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/NNAgCjsB/versions/hsWvcyFJ/entityculling-fabric-1.10.5-mc1.21.1.jar",
+      "sha1": "7e8c9c44049e6575e75d1fe38d6006306b8d5623",
+      "size": 1595131,
+      "side": "client",
+      "source": "modrinth",
+      "title": "entityculling",
+      "projectId": "NNAgCjsB"
+    },
+    {
+      "fileName": "xaerominimap-fabric-1.21.1-26.4.2.jar",
+      "url": "https://cdn.modrinth.com/data/1bokaNcj/versions/Tx54V6kI/xaerominimap-fabric-1.21.1-26.4.2.jar",
+      "sha1": "9293ef9b2626ae3180625c003290a838879cc0b4",
+      "size": 2233608,
+      "side": "both",
+      "source": "modrinth",
+      "title": "xaerominimap",
       "projectId": "1bokaNcj"
     },
     {
-      "fileName": "waystones-forge-1.20.1-14.1.21.jar",
-      "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/Y0IgdaoP/waystones-forge-1.20.1-14.1.21.jar",
-      "sha1": "61952fb248a9689fe46d5ffb223fcc41e31fef1a",
-      "size": 536782,
+      "fileName": "villagerconfig-fabric-4.5.4+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/OClpEDe3/versions/sb4XIWwK/villagerconfig-fabric-4.5.4%2B1.21.1.jar",
+      "sha1": "0b9c27925a041b3dee88bd10aa5e06ef7ee4f08d",
+      "size": 355303,
       "side": "both",
       "source": "modrinth",
-      "title": "Waystones",
+      "title": "villagerconfig",
+      "projectId": "OClpEDe3"
+    },
+    {
+      "fileName": "rechiseled-1.2.4-fabric-mc1.21.jar",
+      "url": "https://cdn.modrinth.com/data/B0g2vT6l/versions/Whwd5n82/rechiseled-1.2.4-fabric-mc1.21.jar",
+      "sha1": "52df3c871d9634cef497575ed214ed35a960bbfe",
+      "size": 11913849,
+      "side": "both",
+      "source": "modrinth",
+      "title": "rechiseled",
+      "projectId": "B0g2vT6l"
+    },
+    {
+      "fileName": "brb-1.10.0-rc5+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/vWIaVOTE/versions/rj0f0Vtq/brb-1.10.0-rc5%2B1.21.jar",
+      "sha1": "5831fc725b9834cef7b445913a701310536b17ab",
+      "size": 1213168,
+      "side": "client",
+      "source": "modrinth",
+      "title": "brb",
+      "projectId": "vWIaVOTE"
+    },
+    {
+      "fileName": "particular-1.21.1-Fabric-1.5.5.jar",
+      "url": "https://cdn.modrinth.com/data/pYFUU6cq/versions/PASRyKTR/particular-1.21.1-Fabric-1.5.5.jar",
+      "sha1": "de3740c49c41a32c6034d2cdc817f3aea96b4bb1",
+      "size": 285813,
+      "side": "client",
+      "source": "modrinth",
+      "title": "particular",
+      "projectId": "pYFUU6cq"
+    },
+    {
+      "fileName": "BetterThirdPerson-Fabric-1.21-1.9.0.jar",
+      "url": "https://cdn.modrinth.com/data/G1s2WpNo/versions/QZTn8cTa/BetterThirdPerson-Fabric-1.21-1.9.0.jar",
+      "sha1": "ea0dd2747e5d52d1b64dd29498e59602e79d9b69",
+      "size": 52188,
+      "side": "client",
+      "source": "modrinth",
+      "title": "BetterThirdPerson",
+      "projectId": "G1s2WpNo"
+    },
+    {
+      "fileName": "midnightlib-1.7.5-fabric+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/codAaoxh/versions/vqqujBpd/midnightlib-1.7.5-fabric%2B1.21.1.jar",
+      "sha1": "c32c79bd001e400ec7ebaccfffaed465daf42835",
+      "size": 62853,
+      "side": "both",
+      "source": "modrinth",
+      "title": "midnightlib",
+      "projectId": "codAaoxh"
+    },
+    {
+      "fileName": "balm-fabric-1.21.1-21.0.63.jar",
+      "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/R6U3hZRZ/balm-fabric-1.21.1-21.0.63.jar",
+      "sha1": "e6a6596688e23ca00e69249c26e316541a086ca2",
+      "size": 809717,
+      "side": "both",
+      "source": "modrinth",
+      "title": "balm",
+      "projectId": "MBAkmtvl"
+    },
+    {
+      "fileName": "lithium-fabric-0.15.4+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/gvQqBUqZ/versions/N08Z8wog/lithium-fabric-0.15.4%2Bmc1.21.1.jar",
+      "sha1": "7d82a004403b7780d4443d8e40361a55cfd0ae63",
+      "size": 797454,
+      "side": "both",
+      "source": "modrinth",
+      "title": "lithium",
+      "projectId": "gvQqBUqZ"
+    },
+    {
+      "fileName": "repurposed_structures-7.5.21+1.21.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/muf0XoRe/versions/4uDzF4B9/repurposed_structures-7.5.21%2B1.21.1-fabric.jar",
+      "sha1": "edbe14eb66baf532a59b5c0095cbec2ce2c8b950",
+      "size": 8202318,
+      "side": "both",
+      "source": "modrinth",
+      "title": "repurposed structures",
+      "projectId": "muf0XoRe"
+    },
+    {
+      "fileName": "accessories_compat_layer-fabric-0.1.12+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/ySnjMzLg/versions/pWxabbaf/accessories_compat_layer-fabric-0.1.12%2B1.21.1.jar",
+      "sha1": "44acb001881c063aa15fe66a26de5fae88e6564f",
+      "size": 398321,
+      "side": "both",
+      "source": "modrinth",
+      "title": "accessories compat layer",
+      "projectId": "ySnjMzLg"
+    },
+    {
+      "fileName": "notenoughcrashes-fabric-4.4.9+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/yM94ont6/versions/gR0LY1dB/notenoughcrashes-fabric-4.4.9%2B1.21.1.jar",
+      "sha1": "0de122f1e94b85308bcecb0ebc40ac48c13367a9",
+      "size": 601087,
+      "side": "both",
+      "source": "modrinth",
+      "title": "notenoughcrashes",
+      "projectId": "yM94ont6"
+    },
+    {
+      "fileName": "packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+      "url": "https://cdn.modrinth.com/data/c7m1mi73/versions/2C41Q8WX/packetfixer-3.3.1-1.20.5-1.21.X-merged.jar",
+      "sha1": "a8bb6e25807682e72c23bf4065f3cd5f6373ece3",
+      "size": 46623,
+      "side": "both",
+      "source": "modrinth",
+      "title": "packetfixer",
+      "projectId": "c7m1mi73"
+    },
+    {
+      "fileName": "fabric-language-kotlin-1.13.13+kotlin.2.4.10.jar",
+      "url": "https://cdn.modrinth.com/data/Ha28R6CL/versions/bdhiINYC/fabric-language-kotlin-1.13.13%2Bkotlin.2.4.10.jar",
+      "sha1": "620cb137a9dc69ce86f3114f19d9eedab16366f5",
+      "size": 8076363,
+      "side": "both",
+      "source": "modrinth",
+      "title": "fabric language kotlin",
+      "projectId": "Ha28R6CL"
+    },
+    {
+      "fileName": "catchindicator-fabric-1.7.0.jar",
+      "url": "https://cdn.modrinth.com/data/tpTcu2PM/versions/PMZ87iqE/catchindicator-fabric-1.7.0.jar",
+      "sha1": "afe92fe750372efe83d9d85480f0e98401fdef1b",
+      "size": 318477,
+      "side": "client",
+      "source": "modrinth",
+      "title": "catchindicator",
+      "projectId": "tpTcu2PM"
+    },
+    {
+      "fileName": "modmenu-11.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/mOgUt4GM/versions/v6Xx3fbU/modmenu-11.0.4.jar",
+      "sha1": "8af1b0b9ee18eab5cd5e5c97c497f0e473c49e9a",
+      "size": 973059,
+      "side": "client",
+      "source": "modrinth",
+      "title": "modmenu",
+      "projectId": "mOgUt4GM"
+    },
+    {
+      "fileName": "NoChatRestrictions-Fabric-MC1.21.11-v1.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/z440MEwJ/versions/2fnDwqeV/NoChatRestrictions-Fabric-MC1.21.11-v1.0.0.jar",
+      "sha1": "853d8af1282c0dac0a9814e336c9ebfe2776ca25",
+      "size": 9907,
+      "side": "client",
+      "source": "modrinth",
+      "title": "NoChatRestrictions",
+      "projectId": "z440MEwJ"
+    },
+    {
+      "fileName": "yet_another_config_lib_v3-3.8.2+1.21.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/1eAoo2KR/versions/o3cDn8Vp/yet_another_config_lib_v3-3.8.2%2B1.21.1-fabric.jar",
+      "sha1": "e075503382f70715ab9fc6f66d603397a86eb3e0",
+      "size": 1131265,
+      "side": "both",
+      "source": "modrinth",
+      "title": "yet another config lib",
+      "projectId": "1eAoo2KR"
+    },
+    {
+      "fileName": "Carved Wood-fabric-1.21.1-1.9.7-B.jar",
+      "url": "https://cdn.modrinth.com/data/WuwijfrW/versions/h1wI9HyK/Carved%20Wood-fabric-1.21.1-1.9.7-B.jar",
+      "sha1": "af0a1cf8ad03421cb3e5522db432b5c224317309",
+      "size": 2891665,
+      "side": "both",
+      "source": "modrinth",
+      "title": "Carved Wood",
+      "projectId": "WuwijfrW"
+    },
+    {
+      "fileName": "geckolib-fabric-1.21.1-4.9.2.jar",
+      "url": "https://cdn.modrinth.com/data/8BmcQJ2H/versions/dnJdtm0u/geckolib-fabric-1.21.1-4.9.2.jar",
+      "sha1": "b95b1d631baeada54c6773ca8f6ede40d57fea46",
+      "size": 660416,
+      "side": "both",
+      "source": "modrinth",
+      "title": "geckolib",
+      "projectId": "8BmcQJ2H"
+    },
+    {
+      "fileName": "musicnotification-fabric-3.0.0+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/A4YQgwzz/versions/IgzyHmxS/musicnotification-fabric-3.0.0%2Bmc1.21.1.jar",
+      "sha1": "c27e43fec57825e2ac45d39a9366150b45d409ec",
+      "size": 139713,
+      "side": "client",
+      "source": "modrinth",
+      "title": "musicnotification",
+      "projectId": "A4YQgwzz"
+    },
+    {
+      "fileName": "modernfix-fabric-5.25.1+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/nmDcB62a/versions/NnNX8LBn/modernfix-fabric-5.25.1%2Bmc1.21.1.jar",
+      "sha1": "4ab39e9c736e7204146792c545ec5b29fc0a3872",
+      "size": 471258,
+      "side": "both",
+      "source": "modrinth",
+      "title": "modernfix",
+      "projectId": "nmDcB62a"
+    },
+    {
+      "fileName": "MobsBeGone-0.0.7.jar",
+      "url": "https://cdn.modrinth.com/data/hXvXSxxg/versions/B5tawRRL/MobsBeGone-0.0.7.jar",
+      "sha1": "6335518bd5ebce9734669f5ed5fb0df3e7ceabb4",
+      "size": 9837,
+      "side": "both",
+      "source": "modrinth",
+      "title": "MobsBeGone",
+      "projectId": "hXvXSxxg"
+    },
+    {
+      "fileName": "particular-1.1.2+1.21.jar.disabled",
+      "url": "https://cdn.modrinth.com/data/B1CcCd9h/versions/3dq7wTCR/particular-1.1.2%2B1.21.jar",
+      "sha1": "aa59b31359c2211f4a2d401235c4926084d4f97e",
+      "size": 240317,
+      "side": "client",
+      "source": "modrinth",
+      "title": "particular",
+      "projectId": "B1CcCd9h"
+    },
+    {
+      "fileName": "Searchables-fabric-1.21.1-1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/fuuu3xnx/versions/tRdr8Bg3/Searchables-fabric-1.21.1-1.0.2.jar",
+      "sha1": "2777db0b967e80e0659053154f32f14a0e99a7a7",
+      "size": 79531,
+      "side": "client",
+      "source": "modrinth",
+      "title": "Searchables",
+      "projectId": "fuuu3xnx"
+    },
+    {
+      "fileName": "particlerain-4.0.0-beta.10+1.21.1-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/nrikgvxm/versions/ddaOLHgq/particlerain-4.0.0-beta.10%2B1.21.1-fabric.jar",
+      "sha1": "348a457458609372069b4101a6c88a12b55211a7",
+      "size": 608651,
+      "side": "client",
+      "source": "modrinth",
+      "title": "particlerain",
+      "projectId": "nrikgvxm"
+    },
+    {
+      "fileName": "BadOptimizations-2.4.1-1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/g96Z4WVZ/versions/S2qthD5S/BadOptimizations-2.4.1-1.21.1.jar",
+      "sha1": "1461d8e46391efd32a3085150e86094c9f6f5c9d",
+      "size": 283566,
+      "side": "client",
+      "source": "modrinth",
+      "title": "BadOptimizations",
+      "projectId": "g96Z4WVZ"
+    },
+    {
+      "fileName": "Cobbreeding-fabric-2.2.2.jar",
+      "url": "https://cdn.modrinth.com/data/ItmVb4zY/versions/RNbPHodv/Cobbreeding-fabric-2.2.2.jar",
+      "sha1": "0bd4a004af1de1d0929dfd295db044c365351153",
+      "size": 475560,
+      "side": "both",
+      "source": "modrinth",
+      "title": "Cobbreeding",
+      "projectId": "ItmVb4zY"
+    },
+    {
+      "fileName": "konkrete_fabric_1.9.9_MC_1.21.jar",
+      "url": "https://cdn.modrinth.com/data/J81TRJWm/versions/Qvrc7DuG/konkrete_fabric_1.9.9_MC_1.21.jar",
+      "sha1": "c521e23a8be17a941f4f95a76feba9df5e3de5d0",
+      "size": 786695,
+      "side": "both",
+      "source": "modrinth",
+      "title": "konkrete",
+      "projectId": "J81TRJWm"
+    },
+    {
+      "fileName": "pastureLoot-1.0.5+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/XP2jcAo0/versions/MYJtblOM/pastureLoot-1.0.5%2B1.21.1.jar",
+      "sha1": "cc6bbf60b6a08d5b4f5c6416aa0279d92f761c73",
+      "size": 45871,
+      "side": "both",
+      "source": "modrinth",
+      "title": "pastureLoot",
+      "projectId": "XP2jcAo0"
+    },
+    {
+      "fileName": "architectury-13.0.8-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/Wto0RchG/architectury-13.0.8-fabric.jar",
+      "sha1": "e71346a43c563e5784580dd096338acfb45f49d4",
+      "size": 600915,
+      "side": "both",
+      "source": "modrinth",
+      "title": "architectury",
+      "projectId": "lhGA9TYQ"
+    },
+    {
+      "fileName": "MoreCobblemonTweaks-fabric-1.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/5KWlJ2HC/versions/1KKV0SvS/MoreCobblemonTweaks-fabric-1.3.3.jar",
+      "sha1": "1c1ce65f40b9409c209608680060866c2aaa1eb9",
+      "size": 137626,
+      "side": "client",
+      "source": "modrinth",
+      "title": "MoreCobblemonTweaks",
+      "projectId": "5KWlJ2HC"
+    },
+    {
+      "fileName": "waystones-fabric-1.21.1-21.1.37.jar",
+      "url": "https://cdn.modrinth.com/data/LOpKHB2A/versions/Ub2AL65v/waystones-fabric-1.21.1-21.1.37.jar",
+      "sha1": "df61027d645c737d80f62eda56ae24c4b8e2b707",
+      "size": 1226801,
+      "side": "both",
+      "source": "modrinth",
+      "title": "waystones",
       "projectId": "LOpKHB2A"
     },
     {
-      "fileName": "jei-1.20.1-forge-15.56.0.205.jar",
-      "url": "https://cdn.modrinth.com/data/u6dRKJwZ/versions/9jqubC9n/jei-1.20.1-forge-15.56.0.205.jar",
-      "sha1": "7f64b7f8fde7f001ef054dabe3618a8780ba2650",
-      "size": 1778129,
+      "fileName": "interactic-0.2.3+1.21.jar",
+      "url": "https://cdn.modrinth.com/data/ErpAAAaf/versions/PGo6qQqQ/interactic-0.2.3%2B1.21.jar",
+      "sha1": "1bb259b6b82f75f9f7302b2f08efafc146ae576e",
+      "size": 118011,
       "side": "both",
       "source": "modrinth",
-      "title": "Just Enough Items (JEI)",
-      "projectId": "u6dRKJwZ"
+      "title": "interactic",
+      "projectId": "ErpAAAaf"
     },
     {
-      "fileName": "Jade-1.20.1-Forge-11.13.3.jar",
-      "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/xJQHCmWJ/Jade-1.20.1-Forge-11.13.3.jar",
-      "sha1": "d08e64e66521d69e083c8525f1fc507f1c202384",
-      "size": 553487,
+      "fileName": "comforts-fabric-9.0.5+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/SaCpeal4/versions/LUPOTXbk/comforts-fabric-9.0.5%2B1.21.1.jar",
+      "sha1": "e47d6c2f0213abed8865dfa51ee05dea86c1baa9",
+      "size": 914494,
       "side": "both",
       "source": "modrinth",
-      "title": "Jade 🔍",
-      "projectId": "nvQzSEkH"
+      "title": "comforts",
+      "projectId": "SaCpeal4"
     },
     {
-      "fileName": "gravestone-forge-1.20.1-1.0.35.jar",
-      "url": "https://cdn.modrinth.com/data/RYtXKJPr/versions/q9kZE5Xo/gravestone-forge-1.20.1-1.0.35.jar",
-      "sha1": "9ec9da5da2a5884b6abff5f74a763a4f3e54fa38",
-      "size": 317181,
+      "fileName": "Iceberg-1.21.1-fabric-1.3.2.jar",
+      "url": "https://cdn.modrinth.com/data/5faXoLqX/versions/7ITFAyW8/Iceberg-1.21.1-fabric-1.3.2.jar",
+      "sha1": "170e30bf93ccba6d80dd481eedddae16cb549d29",
+      "size": 413302,
       "side": "both",
       "source": "modrinth",
-      "title": "GraveStone Mod",
-      "projectId": "RYtXKJPr"
+      "title": "Iceberg",
+      "projectId": "5faXoLqX"
     },
     {
-      "fileName": "rightclickharvest-forge-4.6.1+1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/Cnejf5xM/versions/NFxivT5s/rightclickharvest-forge-4.6.1%2B1.20.1.jar",
-      "sha1": "539bfd7e456eec310707ca577e029fb9ace626c7",
-      "size": 288408,
-      "side": "server",
+      "fileName": "moreculling-fabric-1.21.1-1.0.8.jar",
+      "url": "https://cdn.modrinth.com/data/51shyZVL/versions/LekDmqLf/moreculling-fabric-1.21.1-1.0.8.jar",
+      "sha1": "fcacddf1cecc0fdc9ba937197c74402fd436e9c7",
+      "size": 332100,
+      "side": "client",
       "source": "modrinth",
-      "title": "RightClickHarvest",
-      "projectId": "Cnejf5xM"
+      "title": "moreculling",
+      "projectId": "51shyZVL"
     },
     {
-      "fileName": "watut-forge-1.20.1-1.2.3.jar",
-      "url": "https://cdn.modrinth.com/data/AtB5mHky/versions/GpiXMxvP/watut-forge-1.20.1-1.2.3.jar",
-      "sha1": "d376debf1f96f37dbedf56919baeb7da2dcef9ab",
-      "size": 435496,
+      "fileName": "Controlling-fabric-1.21.1-19.0.5.jar",
+      "url": "https://cdn.modrinth.com/data/xv94TkTM/versions/hGJDoW2W/Controlling-fabric-1.21.1-19.0.5.jar",
+      "sha1": "22d2407311298d0185b606aa1dd03ae33b98dff3",
+      "size": 83679,
+      "side": "client",
+      "source": "modrinth",
+      "title": "Controlling",
+      "projectId": "xv94TkTM"
+    },
+    {
+      "fileName": "zoomify-2.15.2+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/w7ThoJFB/versions/6jrMC48Z/zoomify-2.15.2%2B1.21.1.jar",
+      "sha1": "9ec9c47e1d3465ea0cbd595b6d9d12227239c9a6",
+      "size": 872937,
+      "side": "client",
+      "source": "modrinth",
+      "title": "zoomify",
+      "projectId": "w7ThoJFB"
+    },
+    {
+      "fileName": "bushierflowers-0.0.3-1.21.jar",
+      "url": "https://cdn.modrinth.com/data/OK421ZCh/versions/3ntMJp1Z/bushierflowers-0.0.3-1.21.jar",
+      "sha1": "7d9b162c46bf6d23a927b121068f056e2de34e47",
+      "size": 323168,
       "side": "both",
       "source": "modrinth",
-      "title": "What Are They Up To (Watut)",
+      "title": "bushierflowers",
+      "projectId": "OK421ZCh"
+    },
+    {
+      "fileName": "watut-fabric-1.21.0-1.2.7.jar",
+      "url": "https://cdn.modrinth.com/data/AtB5mHky/versions/iHAQTK0N/watut-fabric-1.21.0-1.2.7.jar",
+      "sha1": "31d06c335b9a3a9fd649e8f4518aaf5a65630f57",
+      "size": 839492,
+      "side": "both",
+      "source": "modrinth",
+      "title": "watut",
       "projectId": "AtB5mHky"
     },
     {
-      "fileName": "ItemPhysic_FORGE_v1.8.17_mc1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/aT8BzaOj/versions/W23Z3V3z/ItemPhysic_FORGE_v1.8.17_mc1.20.1.jar",
-      "sha1": "a762980ee2d96e5e08a4f8a0a4f8b6ee58b17fb6",
-      "size": 55877,
+      "fileName": "1.21.1-1.21.1-1.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/OwtcCsNI/versions/ayhv9V9W/1.21.1-1.21.1-1.0.1.jar",
+      "sha1": "23ad885ea1daa8bd9b182b388b0d8edcb7ab5957",
+      "size": 115278,
+      "side": "both",
+      "source": "modrinth",
+      "title": "1.21.1",
+      "projectId": "OwtcCsNI"
+    },
+    {
+      "fileName": "ItemPhysic_FABRIC_v1.8.17_mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/aT8BzaOj/versions/IZjK6RTK/ItemPhysic_FABRIC_v1.8.17_mc1.21.1.jar",
+      "sha1": "5e1e65eb69173793fa460d1f493e55e0bf8e2e4c",
+      "size": 58196,
       "side": "both",
       "source": "modrinth",
       "title": "ItemPhysic",
       "projectId": "aT8BzaOj"
     },
     {
-      "fileName": "kotlinforforge-4.12.0-all.jar",
-      "url": "https://cdn.modrinth.com/data/ordsPcFz/versions/Zsh14XeQ/kotlinforforge-4.12.0-all.jar",
-      "sha1": "962fdb760409d6d71cbf079235f1ca94e3863a22",
-      "size": 7442998,
+      "fileName": "SereneSeasons-fabric-1.21.1-10.1.0.9.jar",
+      "url": "https://cdn.modrinth.com/data/e0bNACJD/versions/q34wStJM/SereneSeasons-fabric-1.21.1-10.1.0.9.jar",
+      "sha1": "c945665da9813789839bea82281447c0cdd4860f",
+      "size": 389904,
       "side": "both",
       "source": "modrinth",
-      "title": "Kotlin for Forge",
-      "projectId": "ordsPcFz"
+      "title": "SereneSeasons",
+      "projectId": "e0bNACJD"
     },
     {
-      "fileName": "sophisticatedcore-1.20.1-1.5.1.2335.jar",
-      "url": "https://cdn.modrinth.com/data/nmoqTijg/versions/1Xl7lP0L/sophisticatedcore-1.20.1-1.5.1.2335.jar",
-      "sha1": "24d7f2ee72127b7f1148245e57979e87b0b189ec",
-      "size": 1734797,
+      "fileName": "artifacts-fabric-13.2.4.jar",
+      "url": "https://cdn.modrinth.com/data/P0Mu4wcQ/versions/cTss6Iq4/artifacts-fabric-13.2.4.jar",
+      "sha1": "58c9d21078945dec2d20df05aeacd635be9d3502",
+      "size": 1487812,
       "side": "both",
       "source": "modrinth",
-      "title": "Sophisticated Core",
-      "projectId": "nmoqTijg"
+      "title": "artifacts",
+      "projectId": "P0Mu4wcQ"
     },
     {
-      "fileName": "PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
-      "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/mIyVGf3d/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
-      "sha1": "285b7c7616971338ccbe0022c9ea0f8ad3036aaf",
-      "size": 1342987,
+      "fileName": "Jade-1.21.1-Fabric-15.10.6.jar",
+      "url": "https://cdn.modrinth.com/data/nvQzSEkH/versions/adpNvTZS/Jade-1.21.1-Fabric-15.10.6.jar",
+      "sha1": "bed67c605cbc991f474b270581cfa04ed48228df",
+      "size": 740746,
       "side": "both",
       "source": "modrinth",
-      "title": "Puzzles Lib",
-      "projectId": "QAGBst4M"
+      "title": "Jade",
+      "projectId": "nvQzSEkH"
     },
     {
-      "fileName": "gml-4.0.10-all.jar",
-      "url": "https://cdn.modrinth.com/data/zg2tT2Vu/versions/s7gFqeVL/gml-4.0.10-all.jar",
-      "sha1": "6322f1ea643efbb4ae9eb291d133b94d222b4916",
-      "size": 11125462,
+      "fileName": "VisualWorkbench-v21.1.2-1.21.1-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/kfqD1JRw/versions/HyTKHqxd/VisualWorkbench-v21.1.2-1.21.1-Fabric.jar",
+      "sha1": "5942f07bad473247692b28ce0e3dad46c8031fdc",
+      "size": 75226,
       "side": "both",
       "source": "modrinth",
-      "title": "GroovyModLoader (GML)",
-      "projectId": "zg2tT2Vu"
+      "title": "VisualWorkbench",
+      "projectId": "kfqD1JRw"
     },
     {
-      "fileName": "GlitchCore-forge-1.20.1-0.0.1.1.jar",
-      "url": "https://cdn.modrinth.com/data/s3dmwKy5/versions/pYPZ5MNI/GlitchCore-forge-1.20.1-0.0.1.1.jar",
-      "sha1": "bba0b08fe76b28b35243fee53f99d54a18153b53",
-      "size": 87551,
+      "fileName": "cave_dust-3.0.1.jar",
+      "url": "https://cdn.modrinth.com/data/jawg7zT1/versions/8zG4dQ2R/cave_dust-3.0.1.jar",
+      "sha1": "a9f2b1af1dc26b23c1f07a067b58781280e3274d",
+      "size": 257069,
+      "side": "client",
+      "source": "modrinth",
+      "title": "cave dust",
+      "projectId": "jawg7zT1"
+    },
+    {
+      "fileName": "bettervillage-fabric-1.21.1-3.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/dGVX5JbJ/versions/E8HUidDE/bettervillage-fabric-1.21.1-3.3.1.jar",
+      "sha1": "39fe10cfe0662049cb076d0cad9e73e4f0d3fc7f",
+      "size": 2436418,
       "side": "both",
       "source": "modrinth",
-      "title": "GlitchCore",
-      "projectId": "s3dmwKy5"
+      "title": "bettervillage",
+      "projectId": "dGVX5JbJ"
     },
     {
-      "fileName": "libraryferret-forge-1.20.1-4.0.0.jar",
-      "url": "https://cdn.modrinth.com/data/DOB2l4oJ/versions/wl68oCTb/libraryferret-forge-1.20.1-4.0.0.jar",
-      "sha1": "d99bd31f1b8f85cd97e86c2771dc7e715fde4807",
-      "size": 244410,
+      "fileName": "rightclickharvest-fabric-4.6.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/Cnejf5xM/versions/54VwuB27/rightclickharvest-fabric-4.6.1%2B1.21.1.jar",
+      "sha1": "f987a5a1963b5e1dd37a3b4c543369a2b17358a8",
+      "size": 286902,
       "side": "both",
       "source": "modrinth",
-      "title": "Library Ferret",
-      "projectId": "DOB2l4oJ"
+      "title": "rightclickharvest",
+      "projectId": "Cnejf5xM"
     },
     {
-      "fileName": "Zeta-1.0-31.jar",
-      "url": "https://cdn.modrinth.com/data/MVARlG2f/versions/mSER3jBI/Zeta-1.0-31.jar",
-      "sha1": "8c4a8ef0444b53ff408d5b89126285031081d92f",
-      "size": 1006518,
+      "fileName": "MoogsVoyagerStructures-universal-1.21-5.1.3.jar",
+      "url": "https://cdn.modrinth.com/data/OQAgZMH1/versions/PiFoSPXI/MoogsVoyagerStructures-universal-1.21-5.1.3.jar",
+      "sha1": "6759fa57891f731e54f865c13ffa0601a829b76a",
+      "size": 2234287,
       "side": "both",
       "source": "modrinth",
-      "title": "Zeta",
-      "projectId": "MVARlG2f"
+      "title": "MoogsVoyagerStructures universal",
+      "projectId": "OQAgZMH1"
     },
     {
-      "fileName": "CreativeCore_FORGE_v2.12.40_mc1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/ChKayKur/CreativeCore_FORGE_v2.12.40_mc1.20.1.jar",
-      "sha1": "f8b65310e0183630dd00c1ade12f9b6ecd243287",
-      "size": 1144290,
+      "fileName": "AmbientSounds_FABRIC_v6.3.8_mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/fM515JnW/versions/wU311vqz/AmbientSounds_FABRIC_v6.3.8_mc1.21.1.jar",
+      "sha1": "dc7248864901411ec5289d945133c94d8c0e8f64",
+      "size": 84820510,
+      "side": "client",
+      "source": "modrinth",
+      "title": "AmbientSounds",
+      "projectId": "fM515JnW"
+    },
+    {
+      "fileName": "EasyAnvils-v21.1.0-1.21.1-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/OZBR5JT5/versions/znaWBlgU/EasyAnvils-v21.1.0-1.21.1-Fabric.jar",
+      "sha1": "c07d01e04a29d4adcee8ffeb14eb3290a279627e",
+      "size": 148736,
+      "side": "both",
+      "source": "modrinth",
+      "title": "EasyAnvils",
+      "projectId": "OZBR5JT5"
+    },
+    {
+      "fileName": "EasyMagic-v21.1.4-1.21.1-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/9hx3AbJM/versions/LLLfoeWJ/EasyMagic-v21.1.4-1.21.1-Fabric.jar",
+      "sha1": "2131b964eafe376ff7e565cdae330a585e42d2e1",
+      "size": 140897,
+      "side": "both",
+      "source": "modrinth",
+      "title": "EasyMagic",
+      "projectId": "9hx3AbJM"
+    },
+    {
+      "fileName": "FarmersDelight-1.21.1-3.3.6+refabricated.jar",
+      "url": "https://cdn.modrinth.com/data/7vxePowz/versions/wbVXT4Ua/FarmersDelight-1.21.1-3.3.6%2Brefabricated.jar",
+      "sha1": "6d75a472d56c7cf0e9abc7e654861076e8eff389",
+      "size": 3243316,
+      "side": "both",
+      "source": "modrinth",
+      "title": "FarmersDelight",
+      "projectId": "7vxePowz"
+    },
+    {
+      "fileName": "IronChests-2.0.4.jar",
+      "url": "https://cdn.modrinth.com/data/7mHyGgvW/versions/rHtTi59k/IronChests-2.0.4.jar",
+      "sha1": "9955f424f4254110a77412bf34d62d46d20120a1",
+      "size": 582972,
+      "side": "both",
+      "source": "modrinth",
+      "title": "IronChests",
+      "projectId": "7mHyGgvW"
+    },
+    {
+      "fileName": "gravestones-1.4.2+1.21+A.jar",
+      "url": "https://cdn.modrinth.com/data/Heh3BbSv/versions/Fx2DJa18/gravestones-1.4.2%2B1.21%2BA.jar",
+      "sha1": "9e2aeba2c6030d355a3fabb71c463b69dff12f2a",
+      "size": 296986,
+      "side": "both",
+      "source": "modrinth",
+      "title": "gravestones",
+      "projectId": "Heh3BbSv"
+    },
+    {
+      "fileName": "coroutil-fabric-1.21.1-1.3.8.jar",
+      "url": "https://cdn.modrinth.com/data/rLLJ1OZM/versions/U0NUocji/coroutil-fabric-1.21.1-1.3.8.jar",
+      "sha1": "1bb71c0df6959b06915d6d62b8040aa0892f08ae",
+      "size": 2956258,
+      "side": "both",
+      "source": "modrinth",
+      "title": "coroutil",
+      "projectId": "rLLJ1OZM"
+    },
+    {
+      "fileName": "CreativeCore_FABRIC_v2.13.48_mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/OsZiaDHq/versions/v7fZmKvM/CreativeCore_FABRIC_v2.13.48_mc1.21.1.jar",
+      "sha1": "d134ccaf1030973e47f1b2eac7c834e438ae0ab6",
+      "size": 1257391,
       "side": "both",
       "source": "modrinth",
       "title": "CreativeCore",
       "projectId": "OsZiaDHq"
     },
     {
-      "fileName": "MoogsStructureLib-forge-1.20-3.3.1.jar",
-      "url": "https://cdn.modrinth.com/data/1oUDhxuy/versions/Xe7AFvDZ/MoogsStructureLib-forge-1.20-3.3.1.jar",
-      "sha1": "77cb27cfe31bb13d8cf098eaf5a42af42ca74091",
-      "size": 440233,
-      "side": "server",
-      "source": "modrinth",
-      "title": "Moog's Structure Lib (moogs_structures)",
-      "projectId": "1oUDhxuy"
-    },
-    {
-      "fileName": "balm-forge-1.20.1-7.3.44.jar",
-      "url": "https://cdn.modrinth.com/data/MBAkmtvl/versions/dDN38ae7/balm-forge-1.20.1-7.3.44.jar",
-      "sha1": "dae7e647fc54609e66e4f910931be65776352b72",
-      "size": 561741,
+      "fileName": "GlitchCore-fabric-1.21.1-2.1.0.2.jar",
+      "url": "https://cdn.modrinth.com/data/s3dmwKy5/versions/sux8kYHe/GlitchCore-fabric-1.21.1-2.1.0.2.jar",
+      "sha1": "e2aa2bbeb043a8e49f5645e3f3248e7c764ce1b6",
+      "size": 329237,
       "side": "both",
       "source": "modrinth",
-      "title": "Balm",
-      "projectId": "MBAkmtvl"
+      "title": "GlitchCore",
+      "projectId": "s3dmwKy5"
     },
     {
-      "fileName": "architectury-9.2.14-forge.jar",
-      "url": "https://cdn.modrinth.com/data/lhGA9TYQ/versions/1MKTLiiG/architectury-9.2.14-forge.jar",
-      "sha1": "a52918a500ff421180a1cbd1a0cabee712134ec4",
-      "size": 580602,
+      "fileName": "PuzzlesLib-v21.1.60-mc1.21.1-Fabric.jar",
+      "url": "https://cdn.modrinth.com/data/QAGBst4M/versions/Imj7cG2D/PuzzlesLib-v21.1.60-mc1.21.1-Fabric.jar",
+      "sha1": "c1cd667d699905c0ae6dcad6e2dacaed8fbc1605",
+      "size": 1499349,
       "side": "both",
       "source": "modrinth",
-      "title": "Architectury API",
-      "projectId": "lhGA9TYQ"
+      "title": "PuzzlesLib",
+      "projectId": "QAGBst4M"
     },
     {
-      "fileName": "jamlib-forge-1.3.6+1.20.1-patch.1.jar",
-      "url": "https://cdn.modrinth.com/data/IYY9Siz8/versions/PDIowNff/jamlib-forge-1.3.6%2B1.20.1-patch.1.jar",
-      "sha1": "1d376bf7e9e516869fac7f58ec5ac1dd48830f0c",
-      "size": 191607,
+      "fileName": "libraryferret-fabric-1.21.1-4.0.0.jar",
+      "url": "https://cdn.modrinth.com/data/DOB2l4oJ/versions/Mu22ObQq/libraryferret-fabric-1.21.1-4.0.0.jar",
+      "sha1": "36175607ede46cea40cbf3eae9d4606a1c2da76e",
+      "size": 141018,
       "side": "both",
       "source": "modrinth",
-      "title": "JamLib",
+      "title": "libraryferret",
+      "projectId": "DOB2l4oJ"
+    },
+    {
+      "fileName": "jamlib-fabric-1.3.6+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/IYY9Siz8/versions/wWGzYPkM/jamlib-fabric-1.3.6%2B1.21.1.jar",
+      "sha1": "06812c82db4a195853fd29cc03c78bd690bac6ea",
+      "size": 187766,
+      "side": "both",
+      "source": "modrinth",
+      "title": "jamlib",
       "projectId": "IYY9Siz8"
     },
     {
-      "fileName": "coroutil-forge-1.20.1-1.3.7.jar",
-      "url": "https://cdn.modrinth.com/data/rLLJ1OZM/versions/6rPDKAT8/coroutil-forge-1.20.1-1.3.7.jar",
-      "sha1": "7f5f0b62a638b6053c95919cbe8c2bea2e0c93d0",
-      "size": 64187,
+      "fileName": "MoogsStructureLib-fabric-1.21.1-3.3.1.jar",
+      "url": "https://cdn.modrinth.com/data/1oUDhxuy/versions/qTdCLRyk/MoogsStructureLib-fabric-1.21.1-3.3.1.jar",
+      "sha1": "4cd6e807213237f5022e2cdf78b2c6c04fd244d4",
+      "size": 435170,
       "side": "both",
       "source": "modrinth",
-      "title": "CoroUtil",
-      "projectId": "rLLJ1OZM"
+      "title": "MoogsStructureLib",
+      "projectId": "1oUDhxuy"
     },
     {
-      "fileName": "CustomSkinLoader_ForgeV2-14.28.jar",
-      "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/Rcbx2QhV/CustomSkinLoader_ForgeV2-14.28.jar",
-      "sha1": "c7e87169bd8b59a9414620dd0fd63ca5a17c235d",
-      "size": 153877,
-      "side": "client",
-      "source": "modrinth",
-      "title": "CustomSkinLoader",
-      "projectId": "idMHQ4n2"
-    },
-    {
-      "fileName": "cloth-config-11.1.136-forge.jar",
-      "url": "https://cdn.modrinth.com/data/9s6osm5g/versions/t8TXrZvZ/cloth-config-11.1.136-forge.jar",
-      "sha1": "c65d07748acc57ceb45d53b3964368b84f34d54f",
-      "size": 1181413,
+      "fileName": "pneumonocore-1.3.1+1.21+A.jar",
+      "url": "https://cdn.modrinth.com/data/ZLKQjA7t/versions/2Wljsd7H/pneumonocore-1.3.1%2B1.21%2BA.jar",
+      "sha1": "90bacd36b8cd5eaccbece3a7e4a85e198aa8822b",
+      "size": 165279,
       "side": "both",
       "source": "modrinth",
-      "title": "Cloth Config API",
-      "projectId": "9s6osm5g"
+      "title": "pneumonocore",
+      "projectId": "ZLKQjA7t"
     },
     {
-      "fileName": "curios-forge-5.14.1+1.20.1.jar",
-      "url": "https://cdn.modrinth.com/data/vvuO3ImH/versions/IPQlZkz1/curios-forge-5.14.1%2B1.20.1.jar",
-      "sha1": "452175b95ad3db6ff58bb8968f6bf7a9d1e0f480",
-      "size": 398066,
+      "fileName": "cobblemontents-1.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/GVcvsAFM/versions/pSAvUfWY/cobblemontents-1.0.3.jar",
+      "sha1": "6d01ca1ffccba378056b21274464d956f5872dda",
+      "size": 236898,
       "side": "both",
       "source": "modrinth",
-      "title": "Curios API",
-      "projectId": "vvuO3ImH"
+      "title": "cobblemontents",
+      "projectId": "GVcvsAFM"
     },
     {
-      "fileName": "SimpleTMsForge-1.1.2.jar",
-      "url": "https://cdn.modrinth.com/data/yFqR0DNc/versions/l3rUJL9l/SimpleTMsForge-1.1.2.jar",
-      "sha1": "5bd648b08196658bcd515cb5d6f4e6f4248f81f2",
-      "size": 1598405,
+      "fileName": "pokerus-fabric-1.7.3-1.1.0.jar",
+      "url": "https://cdn.modrinth.com/data/DHb4dWwO/versions/ZrFK9ucV/pokerus-fabric-1.7.3-1.1.0.jar",
+      "sha1": "7e5dc456c5138233534df045dbba61896c77e6a2",
+      "size": 33287,
+      "side": "both",
+      "source": "modrinth",
+      "title": "pokerus",
+      "projectId": "DHb4dWwO"
+    },
+    {
+      "fileName": "cobblemon-go-catch-fabric-1.3.0.jar",
+      "url": "https://cdn.modrinth.com/data/GmCAYaEK/versions/W2gPcmgX/cobblemon-go-catch-fabric-1.3.0.jar",
+      "sha1": "eb41120d98a65625d53e8779947f6e8ba2232d18",
+      "size": 191808,
+      "side": "both",
+      "source": "modrinth",
+      "title": "cobblemon go catch",
+      "projectId": "GmCAYaEK"
+    },
+    {
+      "fileName": "pokebike-fabric-3.0.jar",
+      "url": "https://cdn.modrinth.com/data/8eqU62OI/versions/Us8koRQY/pokebike-fabric-3.0.jar",
+      "sha1": "93b844d695d171da4d41c6afeb08ba476538a930",
+      "size": 990830,
+      "side": "both",
+      "source": "modrinth",
+      "title": "pokebike",
+      "projectId": "8eqU62OI"
+    },
+    {
+      "fileName": "starlightfusion-fabric-1.8.0.jar",
+      "url": "https://cdn.modrinth.com/data/nc4mnBEo/versions/6kN5TeWu/starlightfusion-fabric-1.8.0.jar",
+      "sha1": "a8e562db541c77879457ad1fe479b007337d9fdf",
+      "size": 1300094,
+      "side": "both",
+      "source": "modrinth",
+      "title": "starlightfusion",
+      "projectId": "nc4mnBEo"
+    },
+    {
+      "fileName": "legends-myths-3.jar",
+      "url": "https://cdn.modrinth.com/data/5EMX10qI/versions/ffm34Mmj/legends-myths-3.jar",
+      "sha1": "b1bc37a95d134725f8c6122f5ea6ab960cdcc2c1",
+      "size": 5659686,
+      "side": "both",
+      "source": "modrinth",
+      "title": "legends myths",
+      "projectId": "5EMX10qI"
+    },
+    {
+      "fileName": "SimpleTMs-fabric-2.3.3.jar",
+      "url": "https://cdn.modrinth.com/data/yFqR0DNc/versions/uWiIETYV/SimpleTMs-fabric-2.3.3.jar",
+      "sha1": "3433763bf6e20639213fd31a45da187968e61ffe",
+      "size": 821382,
       "side": "both",
       "source": "modrinth",
       "title": "SimpleTMs",
       "projectId": "yFqR0DNc"
     },
     {
-      "fileName": "onlyhammersandexcavators-1.20.1-0.8.jar",
-      "url": "https://cdn.modrinth.com/data/OwtcCsNI/versions/TXwl6Ctp/onlyhammersandexcavators-1.20.1-0.8.jar",
-      "sha1": "f7601ddcb83a535e907f338d32b23fdfa957af01",
-      "size": 108908,
+      "fileName": "cobblemon-battle-positions-1.1.3.jar",
+      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/cobblemon-battle-positions-1.1.3.jar",
+      "sha1": "2edbf7224a689b3463327f2970b481fd8e4ceae8",
+      "size": 58572,
+      "side": "both",
+      "source": "github",
+      "title": "cobblemon battle positions"
+    },
+    {
+      "fileName": "cobbledgacha-fabric-1.21.1-3.0.3.jar",
+      "url": "https://cdn.modrinth.com/data/c1OpnQs3/versions/kqpoF9m4/cobbledgacha-fabric-1.21.1-3.0.3.jar",
+      "sha1": "333a38b02471dddc0a3efc03dc70a82a23a6d2d7",
+      "size": 1148291,
       "side": "both",
       "source": "modrinth",
-      "title": "Only Hammers and Excavators",
-      "projectId": "OwtcCsNI"
+      "title": "cobbledgacha",
+      "projectId": "c1OpnQs3"
+    },
+    {
+      "fileName": "CobbleverseBadges-1.3.jar",
+      "url": "https://cdn.modrinth.com/data/PHT3Zj0r/versions/3aQ0cMqp/CobbleverseBadges-1.3.jar",
+      "sha1": "8e213de6013b6a58485ba8ddfcff5c91b3beb41d",
+      "size": 137015,
+      "side": "both",
+      "source": "modrinth",
+      "title": "CobbleverseBadges",
+      "projectId": "PHT3Zj0r"
+    },
+    {
+      "fileName": "eating-animation-1.21+1.9.72.jar",
+      "url": "https://cdn.modrinth.com/data/rUgZvGzi/versions/KWZCioh0/eating-animation-1.21%2B1.9.72.jar",
+      "sha1": "d89ecd0ac342697e0d1c3aaff1daa6c81bebe2f6",
+      "size": 1060520,
+      "side": "client",
+      "source": "modrinth",
+      "title": "eating animation",
+      "projectId": "rUgZvGzi"
+    },
+    {
+      "fileName": "fallingleaves-1.17.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/WhbRG4iK/versions/Y0zS16Bk/fallingleaves-1.17.1%2B1.21.1.jar",
+      "sha1": "5210b4cb359a95c53580b1399f98e51ab0967cc5",
+      "size": 170056,
+      "side": "client",
+      "source": "modrinth",
+      "title": "fallingleaves",
+      "projectId": "WhbRG4iK"
+    },
+    {
+      "fileName": "just-hammers-fabric-21.1.4.jar",
+      "url": "https://cdn.modrinth.com/data/edU0NbZZ/versions/EGzHAWo0/just-hammers-fabric-21.1.4.jar",
+      "sha1": "052621a90647b5c4eb97130e48156672e60d2aff",
+      "size": 108688,
+      "side": "both",
+      "source": "modrinth",
+      "title": "just hammers",
+      "projectId": "edU0NbZZ"
+    },
+    {
+      "fileName": "LegendaryMonuments-Cobbleverse.jar",
+      "url": "https://cdn.modrinth.com/data/m6RyHSbV/versions/RtYJBrxd/LegendaryMonuments-Cobbleverse.jar",
+      "sha1": "9c86e9dfda8be63bbc01ab03160c8bf5ae8185ac",
+      "size": 5736792,
+      "side": "both",
+      "source": "modrinth",
+      "title": "LegendaryMonuments Cobbleverse",
+      "projectId": "m6RyHSbV"
+    },
+    {
+      "fileName": "moonlight-1.21.1-3.7.0-fabric.jar",
+      "url": "https://cdn.modrinth.com/data/twkfQtEc/versions/FrIMIBv6/moonlight-1.21.1-3.7.0-fabric.jar",
+      "sha1": "7c418f709ec08158d42aaa3b99cf1234ff9da8ea",
+      "size": 2324955,
+      "side": "both",
+      "source": "modrinth",
+      "title": "moonlight",
+      "projectId": "twkfQtEc"
+    },
+    {
+      "fileName": "MoreMobVariantsModernized-1.0.jar",
+      "url": "https://cdn.modrinth.com/data/cV0OA46M/versions/4e4uOFs3/MoreMobVariantsModernized-1.0.jar",
+      "sha1": "a7b74b23301477354ec787e4c7359fe715f07730",
+      "size": 401500,
+      "side": "both",
+      "source": "modrinth",
+      "title": "MoreMobVariantsModernized",
+      "projectId": "cV0OA46M"
+    },
+    {
+      "fileName": "takesapillage-fabric-1.0.12+mc1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/QOJOg1gE/versions/FuB51fVf/takesapillage-fabric-1.0.12%2Bmc1.21.1.jar",
+      "sha1": "5bcc12c854484aa81b377c354224056b58fe9e82",
+      "size": 2801455,
+      "side": "both",
+      "source": "modrinth",
+      "title": "takesapillage",
+      "projectId": "QOJOg1gE"
+    },
+    {
+      "fileName": "CustomSkinLoader_Universal-15.0.1.jar",
+      "title": "CustomSkinLoader",
+      "url": "https://cdn.modrinth.com/data/idMHQ4n2/versions/OLaesh5y/CustomSkinLoader_Universal-15.0.1.jar",
+      "sha1": "ab8dd841cafc3b4ecbf0250d3f5aee8a1fdb506a",
+      "size": 218215,
+      "side": "client",
+      "source": "modrinth"
     }
   ],
   "skins": [
@@ -619,5 +1907,294 @@
       "sha1": "848615babfa036785a08deec4142853b2326bf01"
     }
   ],
-  "updatedAt": "2026-09-27T22:17:14Z"
+  "files": [
+    {
+      "path": "resourcepacks/FullyHisuianStarters RP.zip",
+      "url": "https://cdn.modrinth.com/data/5vRvzDPO/versions/6RwfalgE/Fully%20Hisuian%20Starters%201.1.1.zip",
+      "sha1": "aec849f89f5351c30ef31da5d91691aebfaac590",
+      "size": 202557
+    },
+    {
+      "path": "resourcepacks/Low Fire.zip",
+      "url": "https://cdn.modrinth.com/data/1jZGHJ05/versions/RP4ozzMC/Low%20Fire.zip",
+      "sha1": "0f8e2e5f6eb9f1e2fe35da7a7a0a355760998021",
+      "size": 42116
+    },
+    {
+      "path": "resourcepacks/PokeDiscs.zip",
+      "url": "https://cdn.modrinth.com/data/xk007MaS/versions/De9pY2p7/Poke%20Discs%201.20.x.zip",
+      "sha1": "f5421bb1a6bd1edecd00a4d1a0fdda2be27e3c11",
+      "size": 24912925
+    },
+    {
+      "path": "resourcepacks/z DO NOT ENABLE z [PlanetaCobblemon - Credits Only].zip",
+      "url": "https://cdn.modrinth.com/data/B12Teeqk/versions/mdyB28R2/PlanetaCobblemonFreePack.zip",
+      "sha1": "87a5f855fc8e4d7de01096125f413b3ab44d846a",
+      "size": 317141
+    },
+    {
+      "path": "resourcepacks/PokeRods3D.zip",
+      "url": "https://cdn.modrinth.com/data/7OFEgDS3/versions/L4DqwCP9/Cobblemon%203D%20Pok%C3%A9%20Rods%201.0.zip",
+      "sha1": "c5a92bf0d82abba72eb3a93f6e8bd40560d1c247",
+      "size": 167546
+    },
+    {
+      "path": "resourcepacks/Cobblemon Interface Modded.zip",
+      "url": "https://cdn.modrinth.com/data/5DF3hBIs/versions/pfFd0Jh4/Cobblemon%20Interface%20Modded%20v1.9.4.zip",
+      "sha1": "0599cd556bafd67537690ebe037bc7e4a88c2542",
+      "size": 1053517
+    },
+    {
+      "path": "resourcepacks/z DO NOT ENABLE z [CavsCobbleMons - Credits Only].zip",
+      "url": "https://cdn.modrinth.com/data/2k9EDPO1/versions/j9azip42/CavsCobblemon1.4.zip",
+      "sha1": "a0e58e21e6ead0bc7dc2103ba2feb0e1f70c7a9d",
+      "size": 427986
+    },
+    {
+      "path": "resourcepacks/Fresh Moves.zip",
+      "url": "https://cdn.modrinth.com/data/slufHzC2/versions/4uyHvhnf/-1.21.2%20Fresh%20Moves%20v3.1%20%28With%20Animated%20Eyes%29.zip",
+      "sha1": "7049cc12935ff4be20173c908ad946f530861a4c",
+      "size": 321871
+    },
+    {
+      "path": "resourcepacks/z DO NOT ENABLE z [Hydro Reanimodel - Credits Only].zip",
+      "url": "https://cdn.modrinth.com/data/lYp6oiT3/versions/W0Y4cvXy/Hydro%20Reanimodel%20Pack%200.1.8a.zip",
+      "sha1": "ee5131ab5f985b29da587b2b9d2b66908fa2870d",
+      "size": 2759214
+    },
+    {
+      "path": "resourcepacks/z DO NOT ENABLE z [GlitchDex - Credits Only].zip",
+      "url": "https://cdn.modrinth.com/data/Gdq5F7ud/versions/eHQG8T0Y/GlitchDex-1.1.zip",
+      "sha1": "af46e52755f7305cd44996818fe62bfbaf55736d",
+      "size": 322813
+    },
+    {
+      "path": "resourcepacks/z DO NOT ENABLE z [MundialMons - Credits Only].zip",
+      "url": "https://cdn.modrinth.com/data/ubCG349l/versions/ObF5y08k/MundialMons.1.3.2V.%5BBUGS%20AND%20FIX%5D.zip",
+      "sha1": "0e385a109fa59d3d2d8f1d382c930d7dafd59936",
+      "size": 1535880
+    },
+    {
+      "path": "resourcepacks/Canon PC Wallpapers.zip",
+      "url": "https://cdn.modrinth.com/data/chI5vWhB/versions/L55EKlrV/Canon%20PC%20Wallpapers.zip",
+      "sha1": "a86b33e6d4f782d4b8d5ae9e0ebfaea68c1746a0",
+      "size": 1423022
+    },
+    {
+      "path": "resourcepacks/Comforts Modernized.zip",
+      "url": "https://cdn.modrinth.com/data/BJoffwm5/versions/uFrHNRj0/Comforts%20Modernized%20-%20V1.1.zip",
+      "sha1": "34cc0542c57aedc727ea5d3cf8947a14904caa3c",
+      "size": 72956
+    },
+    {
+      "path": "resourcepacks/EeveelutionsReimagined RP.zip",
+      "url": "https://cdn.modrinth.com/data/TC6XISro/versions/1IKSorXZ/EeveelutionsReimagined.zip",
+      "sha1": "eb6e0ecfe1500ddebab3d68c6f664a6f2cfb0de3",
+      "size": 315069
+    },
+    {
+      "path": "resourcepacks/z DO NOT ENABLE z [TDmon - Credits Only].zip",
+      "url": "https://cdn.modrinth.com/data/b8PVSzJC/versions/hcVF2EwL/TDmon%5BV1.3.1a-Gastly%20Line%20Ported%5D.zip",
+      "sha1": "ebb02b7544fb3378ee2b252d91921e051ddbb00d",
+      "size": 458809
+    },
+    {
+      "path": "resourcepacks/z DO NOT ENABLE z [ATM x MSD - Credits Only].zip",
+      "url": "https://cdn.modrinth.com/data/odZZdRCE/versions/VhwUZj8K/ATM%20x%20MSD%20%5Bv3.6.1%5D.zip",
+      "sha1": "146545cb02fcb5440a516a43b325ff6802c0fe02",
+      "size": 6126613
+    },
+    {
+      "path": "resourcepacks/Fresh Animations.zip",
+      "url": "https://cdn.modrinth.com/data/50dA9Sha/versions/xN57JJts/FreshAnimations_v1.10.4.zip",
+      "sha1": "73db740a6868e043c5e615c036fca2c912615b6e",
+      "size": 850941
+    },
+    {
+      "path": "resourcepacks/z DO NOT ENABLE z [CobbleMotion - Credits Only].zip",
+      "url": "https://cdn.modrinth.com/data/lIDAJAby/versions/sPztKDIi/Cobblemotion_v1.5.1.zip",
+      "sha1": "b683791ddfbbde25c0450133f789ebc6fa9f2c7d",
+      "size": 3148542
+    },
+    {
+      "path": "resourcepacks/z DO NOT ENABLE z [MissingMons - Credits Only].zip",
+      "url": "https://cdn.modrinth.com/data/jbbBrQVa/versions/m53LoEZd/MissingMon_v3.6.1%20%5BFloral%20Awakening%20%5D.zip",
+      "sha1": "791e99c6e6eee6eac8cfc11ced17abd1e2098eb5",
+      "size": 1271067
+    },
+    {
+      "path": "resourcepacks/Fresh Icons.zip",
+      "url": "https://cdn.modrinth.com/data/u4iPx1Dr/versions/dVHdQVak/Icon%20Fresh%200.4.zip",
+      "sha1": "b9ddfb4614220612c7492666db730393954435b8",
+      "size": 852471
+    },
+    {
+      "path": "resourcepacks/Cobblemon Interface.zip",
+      "url": "https://cdn.modrinth.com/data/gfiYlQU0/versions/8SjyMuZO/Cobblemon%20Interface%20v1.6.0.zip",
+      "sha1": "f91aa128e036b579fc687e55f9b9a240e3fbf65a",
+      "size": 14108266
+    },
+    {
+      "path": "resourcepacks/Emissive Cobblemon Ores.zip",
+      "url": "https://cdn.modrinth.com/data/SpgcWKWY/versions/r0ix2gfK/Emissive-Cobblemon-Ores-1.7.zip",
+      "sha1": "8bb4afe1b3b1a3b2ec5edf14367cb29860197456",
+      "size": 803304
+    },
+    {
+      "path": "resourcepacks/z DO NOT ENABLE z [Pokemans - Credits Only].zip",
+      "url": "https://cdn.modrinth.com/data/GFYCh249/versions/YRMjzyUR/pokemans_v15_toxicCloud.zip",
+      "sha1": "0fe76f67ba72fdf6327dc45f4390437d476474d3",
+      "size": 3826705
+    },
+    {
+      "path": "resourcepacks/JigglyRadio.zip",
+      "url": "https://cdn.modrinth.com/data/YLcccJCk/versions/tcx4Tjc6/JigglyRadio1.4.zip",
+      "sha1": "a2afd8ba31b89d46feb30919808155783821119a",
+      "size": 124240613
+    },
+    {
+      "path": "resourcepacks/z DO NOT ENABLE z [MysticMons - Credits Only].zip",
+      "url": "https://cdn.modrinth.com/data/TiFXQSAQ/versions/n1gBFmIp/MysticMons_v3.2.1.zip",
+      "sha1": "07144e890edf13520d4317a5439315344cd53d52",
+      "size": 1268389
+    },
+    {
+      "path": "resourcepacks/z DO NOT ENABLE z [Terralith - Credits Only].zip",
+      "url": "https://cdn.modrinth.com/data/8oi3bsk5/versions/urbokcOc/Terralith_1.21_v2.5.8.zip",
+      "sha1": "fc1349e387e480bec84c6813d1d75e85c3a5ac4f",
+      "size": 3112105
+    },
+    {
+      "path": "resourcepacks/z DO NOT ENABLE z [LackingMons - Credits Only].zip",
+      "url": "https://cdn.modrinth.com/data/ouf6KDf2/versions/pLXYHK8J/LackingMons-ReleaseCanditate-1.zip",
+      "sha1": "583fe91692c9ca75d4301df754514f973fc076f9",
+      "size": 5998516
+    },
+    {
+      "path": "resourcepacks/Classic Grass.zip",
+      "url": "https://cdn.modrinth.com/data/vtFYGarZ/versions/k7BV0a5T/Cobblemon%20Classic%20Grass%20Pack%20v2.1%20MC1.21.1.zip",
+      "sha1": "d4877aea86f2428b8399ae14ef00b8deb11e26de",
+      "size": 7418
+    },
+    {
+      "path": "resourcepacks/Original Pokemon Battle Music.zip",
+      "url": "https://cdn.modrinth.com/data/60QZU8Md/versions/dLmsslxS/%5BV1.2%5D%20Original%20Pokemon%20Battle%20Music.zip",
+      "sha1": "ee0fce4ed8b046df2fbf707788dc674a290ae430",
+      "size": 93138424
+    },
+    {
+      "path": "shaderpacks/ComplementaryUnbound_r5.8.1.zip",
+      "url": "https://cdn.modrinth.com/data/R6NEzAwj/versions/VMHXIk50/ComplementaryUnbound_r5.8.1.zip",
+      "sha1": "af656a33be2cbd217ea08986ad2cdd76f6bbfe1c",
+      "size": 546928
+    },
+    {
+      "path": "resourcepacks/z DO NOT ENABLE z [E19 Minimap Icons - Credits Only].zip",
+      "url": "https://cdn.modrinth.com/data/Va3BanZa/versions/YGgixlha/E19%20Cobblemon%20Minimap%20Icons.zip",
+      "sha1": "1aefc7a313b3c6f719d2fa53916afff18cd0792f",
+      "size": 19398814
+    },
+    {
+      "path": "resourcepacks/ATMxMSD RP.zip",
+      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/rp-ATMxMSD-RP.zip",
+      "sha1": "071256e805e80816cb8ee942150975942f31de43",
+      "size": 4301923
+    },
+    {
+      "path": "resourcepacks/CavsCobbleMons RP.zip",
+      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/rp-CavsCobbleMons-RP.zip",
+      "sha1": "2dfe5f22fe635c28af570bd1a50a2ceb954f2fff",
+      "size": 194006
+    },
+    {
+      "path": "resourcepacks/Cobblemon Interface Modded.zip.rpo",
+      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/rp-Cobblemon-Interface-Modded.zip.rpo",
+      "sha1": "bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f",
+      "size": 2
+    },
+    {
+      "path": "resourcepacks/Cobblemon Interface.zip.rpo",
+      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/rp-Cobblemon-Interface.zip.rpo",
+      "sha1": "def938ac2768e561115d6e2694e766604124f9aa",
+      "size": 75
+    },
+    {
+      "path": "resourcepacks/CobbleMotion RP.zip",
+      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/rp-CobbleMotion-RP.zip",
+      "sha1": "b775d86d1a0f18ec9b244cf503f0bad6c1bc6343",
+      "size": 2754045
+    },
+    {
+      "path": "resourcepacks/E19 Cobblemon Minimap Icons.zip",
+      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/rp-E19-Cobblemon-Minimap-Icons.zip",
+      "sha1": "a0cb7fc6b1f4c302706f209f4e195ef0d4d96546",
+      "size": 10674276
+    },
+    {
+      "path": "resourcepacks/GlitchDex RP.zip",
+      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/rp-GlitchDex-RP.zip",
+      "sha1": "535eabe94e9f22095c31f0cd38610eeb8213ef33",
+      "size": 196701
+    },
+    {
+      "path": "resourcepacks/HydroReanimodel RP.zip",
+      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/rp-HydroReanimodel-RP.zip",
+      "sha1": "36f95431c63473a7527c7b55bad9b992cdcdf8d2",
+      "size": 1221200
+    },
+    {
+      "path": "resourcepacks/LackingMons RP.zip",
+      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/rp-LackingMons-RP.zip",
+      "sha1": "12e8a567003637ddd85f775e639d2b9727ead4e6",
+      "size": 51067
+    },
+    {
+      "path": "resourcepacks/MissingMons RP.zip",
+      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/rp-MissingMons-RP.zip",
+      "sha1": "588491e5f0334521f6d01beda30e473ee11c26c3",
+      "size": 201678
+    },
+    {
+      "path": "resourcepacks/MundialMons RP.zip",
+      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/rp-MundialMons-RP.zip",
+      "sha1": "b95767a76479f884772c89c89cf2b6711193fe49",
+      "size": 1041048
+    },
+    {
+      "path": "resourcepacks/MysticMons RP.zip",
+      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/rp-MysticMons-RP.zip",
+      "sha1": "4a006cb5344c2712e430176eb29f41ea7eb854f5",
+      "size": 59975
+    },
+    {
+      "path": "resourcepacks/OJsAnimations RP.zip",
+      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/rp-OJsAnimations-RP.zip",
+      "sha1": "dbb2abcac4632aae709b7aaed7871faef2bf5af5",
+      "size": 88853
+    },
+    {
+      "path": "resourcepacks/PlanetaCobblemon RP.zip",
+      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/rp-PlanetaCobblemon-RP.zip",
+      "sha1": "2bf23262cfe5cc371cb742e97890e08c78fbb9a6",
+      "size": 138557
+    },
+    {
+      "path": "resourcepacks/Pokemans RP.zip",
+      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/rp-Pokemans-RP.zip",
+      "sha1": "c3a00afd43fc81d650dc2123e5135e19c7f7b416",
+      "size": 562340
+    },
+    {
+      "path": "resourcepacks/TDmon RP.zip",
+      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/rp-TDmon-RP.zip",
+      "sha1": "b6c0816f934c34c7fe1c5bcb8fa5f8910e296fd7",
+      "size": 227765
+    }
+  ],
+  "overrides": {
+    "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/tikitiki-overrides.zip",
+    "sha1": "54649df93c4afec8d61307a4a84df3e122638679",
+    "size": 21946914
+  },
+  "updatedAt": "2026-09-29T19:21:46Z"
 }
