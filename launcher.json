@@ -2076,9 +2076,9 @@
     },
     {
       "path": "resourcepacks/ATMxMSD RP.zip",
-      "url": "https://github.com/UiUyHerrera/tikitiki-launcher/releases/download/packs/rp-ATMxMSD-RP.zip",
-      "sha1": "2bfb8666b0c6d56ab9ef953e4f6f5afe44b6af14",
-      "size": 4248444
+      "url": "https://raw.githubusercontent.com/UiUyHerrera/tikitiki-launcher/main/packs/ATMxMSD-RP.zip",
+      "sha1": "52396fcd06f7f2e5ee0b74b79aaafd9b68ae042e",
+      "size": 4241116
     },
     {
       "path": "resourcepacks/CavsCobbleMons RP.zip",
