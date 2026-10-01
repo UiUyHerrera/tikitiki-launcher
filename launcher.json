@@ -1747,6 +1747,16 @@
       "size": 218215,
       "side": "client",
       "source": "modrinth"
+    },
+    {
+      "fileName": "autoreconnectrf-fabric-2.0.1+1.21.1.jar",
+      "url": "https://cdn.modrinth.com/data/PRy8Khga/versions/T7LDMNCd/autoreconnectrf-fabric-2.0.1%2B1.21.1.jar",
+      "sha1": "35a35ad53c4b612a385e048da2412d875b2d4050",
+      "size": 100417,
+      "side": "client",
+      "source": "modrinth",
+      "title": "Auto Reconnect",
+      "projectId": "PRy8Khga"
     }
   ],
   "skins": [
