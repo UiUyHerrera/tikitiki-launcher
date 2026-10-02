@@ -1,87 +1,51 @@
-# TikiTiki
+# TikiTiki Server Configuration
 
-Datos del server TikiTiki: modpack, skins por defecto y configuración compartida.
+Repositorio de contenido y configuración compartida del launcher del servidor TikiTiki, una comunidad de Minecraft con Cobblemon. Mantiene la configuración del juego, el catálogo de mods, los recursos del servidor y las skins predeterminadas.
 
-Server de Cobblemon para jugar entre amigos, en Minecraft **1.20.1** con **Forge 47.4.10**.
+[English version](#english)
 
-## Contenido
+## Configuración actual
 
-| Archivo | Qué tiene |
-|---|---|
-| `launcher.json` | Versión de Minecraft, loader, lista de mods con su hash SHA-1 y skins por defecto |
-| `catalog.json` | Mods que subieron los jugadores y no están en Modrinth |
-| `version.json` | Última versión publicada y hash de cada descarga |
-| `servers/` | Un archivo JSON por server registrado |
-| `skins/` | Skins por defecto, en modelo clásico y fino |
-| `server/icon.png` | Ícono que aparece en la lista de Multijugador |
+- Minecraft 1.21.1.
+- Fabric Loader 0.19.5.
+- La lista de mods, versiones y hashes se define en launcher.json, que es la fuente de verdad para el launcher.
 
-Los `.jar` no se guardan en el repo. Cada mod de la lista apunta a su descarga oficial en Modrinth y se verifica con su SHA-1.
+## Contenido del repositorio
 
-## Mods
+- launcher.json: versión de Minecraft y loader, mods y configuración compartida del launcher.
+- catalog.json: catálogo de mods aportados por jugadores que no están en Modrinth.
+- version.json: versión publicada y hashes de las descargas.
+- packs/: paquetes de recursos del servidor.
+- server/: recursos del servidor, incluido server/icon.png.
+- skins/: skins predeterminadas.
 
-48 mods.
+Los archivos de mods no se almacenan en el repositorio; la configuración apunta a las descargas correspondientes y permite verificar los archivos mediante sus hashes.
 
-| Mod | Dónde va |
-|---|---|
-| [AmbientSounds](https://modrinth.com/mod/fM515JnW) | Solo cliente |
-| [Architectury API](https://modrinth.com/mod/lhGA9TYQ) | Cliente y server |
-| [Artifacts](https://modrinth.com/mod/P0Mu4wcQ) | Cliente y server |
-| [Balm](https://modrinth.com/mod/MBAkmtvl) | Cliente y server |
-| [Better Third Person](https://modrinth.com/mod/G1s2WpNo) | Solo cliente |
-| [Better Villages](https://modrinth.com/mod/dGVX5JbJ) | Solo server |
-| [Bushier Flowers](https://modrinth.com/mod/OK421ZCh) | Cliente y server |
-| [Cave Dust](https://modrinth.com/mod/jawg7zT1) | Solo cliente |
-| [Cloth Config API](https://modrinth.com/mod/9s6osm5g) | Cliente y server |
-| [Cobblemon](https://modrinth.com/mod/MdwFAVRL) | Cliente y server |
-| [CoroUtil](https://modrinth.com/mod/rLLJ1OZM) | Cliente y server |
-| [CreativeCore](https://modrinth.com/mod/OsZiaDHq) | Cliente y server |
-| [Curios API](https://modrinth.com/mod/vvuO3ImH) | Cliente y server |
-| [CustomSkinLoader](https://modrinth.com/mod/idMHQ4n2) | Solo cliente |
-| [Easy Anvils](https://modrinth.com/mod/OZBR5JT5) | Cliente y server |
-| [Easy Magic](https://modrinth.com/mod/9hx3AbJM) | Cliente y server |
-| [Eating Animations](https://modrinth.com/mod/X8CISwXp) | Solo cliente |
-| [Falling Leaves (NeoForge/Forge)](https://modrinth.com/mod/2JAUNCL4) | Solo cliente |
-| [Farmer's Delight](https://modrinth.com/mod/R2OftAxM) | Cliente y server |
-| [GlitchCore](https://modrinth.com/mod/s3dmwKy5) | Cliente y server |
-| [GraveStone Mod](https://modrinth.com/mod/RYtXKJPr) | Cliente y server |
-| [GroovyModLoader (GML)](https://modrinth.com/mod/zg2tT2Vu) | Cliente y server |
-| [Iron Chests](https://modrinth.com/mod/P3iIrPH3) | Cliente y server |
-| [It Takes a Pillage](https://modrinth.com/mod/pe7FN3d6) | Cliente y server |
-| [ItemPhysic](https://modrinth.com/mod/aT8BzaOj) | Cliente y server |
-| [Jade 🔍](https://modrinth.com/mod/nvQzSEkH) | Cliente y server |
-| [JamLib](https://modrinth.com/mod/IYY9Siz8) | Cliente y server |
-| [Just Enough Items (JEI)](https://modrinth.com/mod/u6dRKJwZ) | Cliente y server |
-| [Kotlin for Forge](https://modrinth.com/mod/ordsPcFz) | Cliente y server |
-| [Library Ferret](https://modrinth.com/mod/DOB2l4oJ) | Cliente y server |
-| [Moog's Structure Lib (moogs_structures)](https://modrinth.com/mod/1oUDhxuy) | Solo server |
-| [More Mob Variants](https://modrinth.com/mod/JiEhJ3WG) | Cliente y server |
-| [MVS - Moog's Voyager Structures](https://modrinth.com/mod/OQAgZMH1) | Solo server |
-| [Neko's Enchanted Books](https://modrinth.com/mod/VZWuyRVr) | Solo cliente |
-| [Not Enough Animations](https://modrinth.com/mod/MPCX6s5C) | Solo cliente |
-| [Only Hammers and Excavators](https://modrinth.com/mod/OwtcCsNI) | Cliente y server |
-| [Puzzles Lib](https://modrinth.com/mod/QAGBst4M) | Cliente y server |
-| [Quark](https://modrinth.com/mod/qnQsVE2z) | Cliente y server |
-| [RightClickHarvest](https://modrinth.com/mod/Cnejf5xM) | Solo server |
-| [Serene Seasons](https://modrinth.com/mod/e0bNACJD) | Cliente y server |
-| [SimpleTMs](https://modrinth.com/mod/yFqR0DNc) | Cliente y server |
-| [Sophisticated Backpacks](https://modrinth.com/mod/TyCTlI4b) | Cliente y server |
-| [Sophisticated Core](https://modrinth.com/mod/nmoqTijg) | Cliente y server |
-| [Visual Workbench](https://modrinth.com/mod/kfqD1JRw) | Cliente y server |
-| [Waystones](https://modrinth.com/mod/LOpKHB2A) | Cliente y server |
-| [What Are They Up To (Watut)](https://modrinth.com/mod/AtB5mHky) | Cliente y server |
-| [Xaero's Minimap](https://modrinth.com/mod/1bokaNcj) | Cliente y server |
-| [Zeta](https://modrinth.com/mod/MVARlG2f) | Cliente y server |
+## Uso
 
-## Datapack
+Este repositorio sirve como fuente de datos para el launcher de TikiTiki. Para jugar, utiliza el launcher configurado para el servidor y mantén los archivos sincronizados con launcher.json. No cambies manualmente versiones o hashes sin actualizar y verificar la configuración asociada.
 
-El server usa [Legends & Myths](https://modrinth.com/datapack/legends-myths), que agrega legendarios y míticos. Las texturas llegan como paquete de recursos del server al entrar.
+## English
 
-## Instalar a mano
+Shared launcher content and configuration for the TikiTiki Minecraft server community featuring Cobblemon. It maintains game configuration, the mod catalog, server assets, and default skins.
 
-1. Instala Minecraft 1.20.1 con Forge 47.4.10.
-2. Baja los mods de la tabla. Los que dicen "Solo server" no hacen falta en el cliente.
-3. Copia los `.jar` a la carpeta `mods` de tu instancia.
+### Current configuration
 
-## Créditos
+- Minecraft 1.21.1.
+- Fabric Loader 0.19.5.
+- The mod list, versions, and hashes are defined in launcher.json, the launcher's source of truth.
 
-Cada mod pertenece a sus autores y se descarga desde su página en Modrinth. Las skins de `skins/` son las skins por defecto de Minecraft, propiedad de Mojang.
+### Repository contents
+
+- launcher.json: Minecraft and loader versions, mods, and shared launcher configuration.
+- catalog.json: catalog of player-contributed mods that are not on Modrinth.
+- version.json: published version and download hashes.
+- packs/: server resource packs.
+- server/: server assets, including server/icon.png.
+- skins/: default skins.
+
+Mod files are not stored in this repository; the configuration points to their downloads and allows files to be verified with hashes.
+
+### Usage
+
+This repository provides data for the TikiTiki launcher. To play, use the launcher configured for the server and keep files in sync with launcher.json. Do not change versions or hashes manually without updating and verifying the related configuration.
