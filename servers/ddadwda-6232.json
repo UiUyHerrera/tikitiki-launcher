@@ -12,10 +12,11 @@
   "mods": [],
   "skins": [],
   "files": [],
-  "updatedAt": "2026-10-03T04:16:08Z",
+  "updatedAt": "2026-10-03T04:16:13Z",
   "id": "ddadwda-6232",
   "host": "Marc",
   "createdAt": "2026-10-03T04:14:27Z",
   "port": 25565,
-  "mode": "pc"
+  "mode": "pc",
+  "codeHash": "a49a935c3175254f200cf678815e5a9e177af889f14fdc689207deabad4c429f"
 }
