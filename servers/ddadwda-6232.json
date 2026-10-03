@@ -1,0 +1,21 @@
+{
+  "id": "ddadwda-6232",
+  "codeHash": "a49a935c3175254f200cf678815e5a9e177af889f14fdc689207deabad4c429f",
+  "serverName": "ddadwda",
+  "serverAddress": "",
+  "serverIcon": "",
+  "serverIconSha1": "",
+  "minecraftVersion": "1.20.1",
+  "loader": {
+    "type": "vanilla",
+    "version": ""
+  },
+  "mods": [],
+  "skins": [],
+  "host": "Marc",
+  "port": 25565,
+  "mode": "pc",
+  "optifine": false,
+  "createdAt": "2026-10-03T04:14:27Z",
+  "updatedAt": "2026-10-03T04:14:27Z"
+}
